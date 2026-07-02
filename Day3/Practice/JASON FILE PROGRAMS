@@ -1,0 +1,47 @@
+import json
+student=[
+  {
+    'Name':"ALI",
+    "CLASS":"BSCS",
+    "AGE":20
+  }
+   ]
+file=open("student.json",'w')
+json.dump(student,file)
+file.close()
+
+
+import json
+file=open("student.json","r")
+student=json.load(file)
+print(student)
+file.close()
+
+
+
+file = open("student.json", "r")
+student = json.load(file)
+file.close()
+student[0]["AGE"] = 23
+student[0]["Name"] = "Sami"
+file = open("student.json", "w")
+json.dump(student, file)
+file.close()
+
+
+
+import json
+file = open("student.json", "r")
+student = json.load(file)
+file.close()
+new_student = {
+    "Name": "Ahmed",
+    "CLASS": "BBA",
+    "AGE": 22
+}
+student.append(new_student)
+file = open("student.json", "w")
+json.dump(student, file)
+file.close()
+print("Student added successfully!")
+
