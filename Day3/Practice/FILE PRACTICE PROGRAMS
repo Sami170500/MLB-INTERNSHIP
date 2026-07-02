@@ -1,0 +1,25 @@
+# FILE METHODS
+
+file = open("student.txt", "w")
+file.write("Ali\n")
+file.write("Ahmed\n")
+file.write("Zain")
+file.close()
+
+
+file=open("student.txt","r")
+print(file.read())
+file.close()
+
+
+file=open("student.txt","a")
+file.write("\nHamza")
+file.close
+
+
+file=open("student.txt","r")
+count=0
+for line in file:
+    count+=1
+print(count)    
+file.close()
