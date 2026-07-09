@@ -54,3 +54,14 @@ y_pred_best=best_model.predict(X_test)
 print("COMPARISON\n")
 print(accuracy_score(Y_test,y_pred))
 print(accuracy_score(Y_test,y_pred_best))
+
+from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
+import matplotlib.pyplot as plt
+cm = confusion_matrix(Y_test, y_pred_best)
+display = ConfusionMatrixDisplay(
+    confusion_matrix=cm,
+    display_labels=cancer.target_names
+)
+display.plot(cmap="Blues")
+plt.title("Confusion Matrix - Tuned Logistic Regression")
+plt.show()
