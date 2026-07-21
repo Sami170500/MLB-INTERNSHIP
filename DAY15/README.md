@@ -14,19 +14,15 @@
 - Converted colored document images into grayscale using `cv2.cvtColor()`.
 - Grayscale removes unnecessary color information and focuses on intensity values, making further processing easier.
 
-### 4. Image Thresholding / Binarization
-- Applied thresholding techniques to separate text from the background.
-- This improves text visibility by making the document background cleaner.
-
-### 5. Noise Reduction
+### 4. Noise Reduction
 - Applied noise removal techniques to reduce unwanted spots and small distortions.
 - This helps create a cleaner document image.
 
-### 6. Image Sharpening
+### 5. Image Sharpening
 - Used sharpening techniques to enhance edges and make text clearer.
 - This improves the quality of scanned documents, especially blurry text.
 
-### 7. Output Saving
+### 6. Output Saving
 - Implemented automatic saving of processed images.
 - Each enhanced image is stored separately instead of replacing previous outputs.
 
@@ -75,4 +71,4 @@ Grayscale conversion removed unnecessary color information, while thresholding i
 
 ## Conclusion
 
-This project helped understand how computer vision techniques can improve document images. Using OpenCV transformations such as grayscale conversion, thresholding, noise removal, and sharpening, the quality and readability of scanned documents were improved.
+This project helped understand how computer vision techniques can improve document images. Using OpenCV transformations such as grayscale conversion, , noise removal, and sharpening, the quality .
