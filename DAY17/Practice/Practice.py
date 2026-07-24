@@ -1,0 +1,21 @@
+import cv2
+import numpy as np
+img=cv2.imread("SHAPE.png")
+gray=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
+blur=cv2.GaussianBlur(gray,(5,5),0)
+_,binery=cv2.threshold(blur,127,255,cv2.THRESH_BINARY_INV)
+contours,_=cv2.findContours(binery,cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_SIMPLE)
+draw=cv2.drawContours(img,contours,-1,(0,255,0),3)
+for i,cnt in enumerate(contours):
+    area=cv2.contourArea(cnt)
+    perimeter=cv2.arcLength(cnt,True)
+    print(f"CONTOUR{i+1}")
+    print("area of contour:",area)
+    print("perimeter of contour:",perimeter)
+    x,y,w,h=cv2.boundingRect(cnt)
+    cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,0),2)
+cv2.imshow("binery",binery)
+cv2.imshow("draw",draw)
+cv2.imwrite("poutput/Pdraw.png",draw)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
