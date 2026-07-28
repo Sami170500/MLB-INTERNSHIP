@@ -116,6 +116,8 @@ def check_occupancy():
     global img
     global parking_slots
     global car_boxes
+    global occupied
+    global vacant
 
     if img is None:
         print("Please load an image first.")
@@ -165,7 +167,7 @@ def display_statistics():
         print("No parking slots found.")
         return
     occupancy_percentage = (occupied / total) * 100
-    print("\n========== PARKING STATISTICS ==========")
+    print("\n==PARKING STATISTICS ==")
     print("Total Parking Slots :", total)
     print("Occupied Slots      :", occupied)
     print("Vacant Slots        :", vacant)
@@ -212,3 +214,4 @@ while True:
 
     else:
         print("Invalid Choice!")
+        
