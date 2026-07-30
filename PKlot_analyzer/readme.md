@@ -31,9 +31,6 @@ The Smart Parking Lot Occupancy Analyzer is a Computer Vision application that a
    - Occupied spaces
    - Vacant spaces
    - Total parking spaces
-8. Save the annotated output image.
-
----
 
 ## Technologies Used
 
@@ -70,4 +67,13 @@ The Smart Parking Lot Occupancy Analyzer is a Computer Vision application that a
 - Add parking occupancy percentage and availability indicators.
 - Integrate with a smart parking management system.
 - Optimize the model for faster real-time inference.
+
+- ## Dataset Link
+
+You can access the dataset used in this project here:
+
+**PKLot Computer Vision Dataset (Roboflow):**  
+[https://universe.roboflow.com/zoja-scekic/pklot-vsh7g](https://universe.roboflow.com/zoja-scekic/pklot-vsh7g)
+
+---
 
