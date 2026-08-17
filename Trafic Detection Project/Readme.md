@@ -123,21 +123,15 @@ The project can be further improved by:
 - Adding speed estimation.
 - Deploying the model for real-time traffic monitoring.
 - Optimizing the model for edge devices and real-time applications.
-## Trained Model
 
-The final trained **YOLO26l** model (`best.pt`) is approximately **53 MB**, so it is not included directly in this GitHub repository.
+## Trained Model
 
 You can download the trained model from Google Drive:
 
 👉 **[Download YOLO26l Trained Model](https://drive.google.com/drive/folders/1DxHHoZ4YDIxaiBykDV-Ap33WALhtaHyh)**
 
-The model can be loaded using Ultralytics:
 
-```python
- from ultralytics import YOLO
- model = YOLO("best.pt")
-
-## Conclusion
+Conclusion
 
 The project successfully developed a custom traffic detection model using **YOLO26l**.
 
