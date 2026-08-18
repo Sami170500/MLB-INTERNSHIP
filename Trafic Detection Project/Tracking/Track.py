@@ -1,153 +1,129 @@
-from collections import defaultdict, deque
 import cv2
+from ultralytics import YOLO
+from collections import defaultdict, deque
 
-CONF_THRESHOLD = 0.40
-MIN_TRACK_FRAMES = 5
-TAIL_LENGTH = 40
+modelPath = input("Enter model path: ")
+videoPath = input("Enter video path: ")
+outputVideoPath = "/content/results.mp4"
 
-track_history = defaultdict(lambda: deque(maxlen=TAIL_LENGTH))
+LINE_Y = 400
 
-track_frames = defaultdict(int)
+model = YOLO(modelPath)
 
-previous_positions = {}
+cap = cv2.VideoCapture(videoPath)
 
-counted_ids = set()
+if not cap.isOpened():
+    raise RuntimeError(f"Could not open video: {videoPath}")
 
-
-class_counts = defaultdict(int)
-
-cap = cv2.VideoCapture(video_path)
-
-fps = cap.get(cv2.CAP_PROP_FPS)
 width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
+fps = cap.get(cv2.CAP_PROP_FPS)
 
-line_y = height // 2
+if fps <= 0:
+    fps = 30
 
-output_path = "/content/final_tracking_counting.mp4"
+totalFrames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
 
 fourcc = cv2.VideoWriter_fourcc(*"mp4v")
 
-out = cv2.VideoWriter(
-    output_path,
+writer = cv2.VideoWriter(
+    outputVideoPath,
     fourcc,
     fps,
     (width, height)
 )
 
-while cap.isOpened():
+trackHistory = defaultdict(lambda: deque(maxlen=30))
+previousPositions = {}
+countedIDs = set()
+
+classNames = model.names
+
+classCounts = {
+    classID: 0
+    for classID in classNames
+}
+
+frameNumber = 0
+
+while True:
 
     success, frame = cap.read()
 
     if not success:
         break
 
-    result = model.track(
-        frame,
-        tracker="bytetrack.yaml",
+    frameNumber += 1
+
+    results = model.track(
+        source=frame,
         persist=True,
-        conf=CONF_THRESHOLD,
-        iou=0.50,
+        tracker="bytetrack.yaml",
+        conf=0.10,
+        imgsz=640,
+        device=0,
         verbose=False
-    )[0]
+    )
+
+    result = results[0]
 
     cv2.line(
         frame,
-        (0, line_y),
-        (width, line_y),
-        (0, 0, 255),
+        (0, LINE_Y),
+        (width, LINE_Y),
+        (0, 255, 255),
         3
     )
 
     cv2.putText(
         frame,
         "COUNTING LINE",
-        (20, line_y - 12),
+        (20, LINE_Y - 10),
         cv2.FONT_HERSHEY_SIMPLEX,
-        0.7,
-        (0, 0, 255),
+        0.8,
+        (0, 255, 255),
         2
     )
 
-
-    if result.boxes.id is not None:
+    if result.boxes is not None and result.boxes.id is not None:
 
         boxes = result.boxes.xyxy.cpu().numpy()
-        track_ids = result.boxes.id.int().cpu().tolist()
-        classes = result.boxes.cls.int().cpu().tolist()
+
+        classes = (
+            result.boxes.cls
+            .cpu()
+            .numpy()
+            .astype(int)
+        )
+
+        trackIDs = (
+            result.boxes.id
+            .cpu()
+            .numpy()
+            .astype(int)
+        )
+
         confidences = result.boxes.conf.cpu().numpy()
 
-        for box, track_id, cls, conf in zip(
+        for box, classID, trackID, confidence in zip(
             boxes,
-            track_ids,
             classes,
+            trackIDs,
             confidences
         ):
 
             x1, y1, x2, y2 = map(int, box)
 
-            class_name = model.names[cls]
+            centerX = int((x1 + x2) / 2)
+            centerY = int((y1 + y2) / 2)
 
+            className = model.names[int(classID)]
 
-            track_frames[track_id] += 1
-
-           
-
-            center_x = int((x1 + x2) / 2)
-            center_y = int(y2)
-
-            
-            previous_y = previous_positions.get(track_id)
-
-            
-            previous_positions[track_id] = center_y
-
-            
-            track_history[track_id].append(
-                (center_x, center_y)
-            )
-           
-            cv2.rectangle(
-                frame,
-                (x1, y1),
-                (x2, y2),
-                (0, 255, 0),
-                1
+            trackHistory[trackID].append(
+                (centerX, centerY)
             )
 
-                cv2.rectangle(
-                frame,
-                (x1, y1),
-                (x2, y2),
-                (255, 0, 0),
-                3
-            )
-
-            label = f"{class_name} | ID:{track_id}"
-
-            cv2.putText(
-                frame,
-                label,
-                (x1, max(y1 - 10, 20)),
-                cv2.FONT_HERSHEY_SIMPLEX,
-                0.6,
-                (255, 0, 0),
-                2
-            )
-
-        
-
-            cv2.circle(
-                frame,
-                (center_x, center_y),
-                5,
-                (0, 0, 255),
-                -1
-            )
-
-        
-
-            points = list(track_history[track_id])
+            points = list(trackHistory[trackID])
 
             for i in range(1, len(points)):
 
@@ -155,73 +131,173 @@ while cap.isOpened():
                     frame,
                     points[i - 1],
                     points[i],
-                    (255, 0, 0),
-                    3
+                    (255, 0, 255),
+                    2
                 )
 
-        
+            cv2.circle(
+                frame,
+                (centerX, centerY),
+                5,
+                (255, 0, 255),
+                -1
+            )
 
-            if (
-                previous_y is not None
-                and track_frames[track_id] >= MIN_TRACK_FRAMES
-                and track_id not in counted_ids
-            ):
+            cv2.rectangle(
+                frame,
+                (x1, y1),
+                (x2, y2),
+                (0, 255, 0),
+                2
+            )
 
-                
-                crossed_down = (
-                    previous_y < line_y
-                    and center_y >= line_y
+            label = (
+                f"{className} "
+                f"ID:{trackID} "
+                f"{confidence:.2f}"
+            )
+
+            cv2.putText(
+                frame,
+                label,
+                (x1, max(y1 - 10, 20)),
+                cv2.FONT_HERSHEY_SIMPLEX,
+                0.55,
+                (0, 255, 0),
+                2
+            )
+
+            if trackID in previousPositions:
+
+                previousY = previousPositions[trackID]
+
+                crossedDown = (
+                    previousY < LINE_Y
+                    and centerY >= LINE_Y
                 )
 
-                
-                crossed_up = (
-                    previous_y > line_y
-                    and center_y <= line_y
+                crossedUp = (
+                    previousY > LINE_Y
+                    and centerY <= LINE_Y
                 )
 
-                if crossed_down or crossed_up:
+                crossedLine = crossedDown or crossedUp
 
-                    counted_ids.add(track_id)
+                if (
+                    crossedLine
+                    and trackID not in countedIDs
+                ):
 
-                    class_counts[class_name] += 1
+                    countedIDs.add(trackID)
 
-    y_text = 35
+                    if classID in classCounts:
 
-    for class_name in model.names.values():
+                        classCounts[classID] += 1
 
-        count = class_counts[class_name]
+                        print(
+                            f"COUNTED | "
+                            f"{className} | "
+                            f"ID: {trackID} | "
+                            f"Total: {classCounts[classID]}"
+                        )
 
-        text = f"{class_name.capitalize()} Passed: {count}"
+            previousPositions[trackID] = centerY
+
+    panelX = 20
+    panelY = 30
+    panelWidth = 300
+    panelHeight = 70 + len(classNames) * 28
+
+    overlay = frame.copy()
+
+    cv2.rectangle(
+        overlay,
+        (panelX, panelY),
+        (
+            panelX + panelWidth,
+            panelY + panelHeight
+        ),
+        (0, 0, 0),
+        -1
+    )
+
+    frame = cv2.addWeighted(
+        overlay,
+        0.55,
+        frame,
+        0.45,
+        0
+    )
+
+    cv2.putText(
+        frame,
+        "TRAFFIC COUNT",
+        (panelX + 15, panelY + 30),
+        cv2.FONT_HERSHEY_SIMPLEX,
+        0.8,
+        (255, 255, 255),
+        2
+    )
+
+    yText = panelY + 60
+
+    for classID, className in classNames.items():
+
+        text = f"{className}: {classCounts[classID]}"
 
         cv2.putText(
             frame,
             text,
-            (15, y_text),
+            (panelX + 15, yText),
             cv2.FONT_HERSHEY_SIMPLEX,
             0.65,
             (255, 255, 255),
             2
         )
 
-        y_text += 28
+        yText += 28
 
-
-    out.write(frame)
-
-
-cap.release()
-out.release()
-
-print("Tracking + counting completed!")
-
-print("\nFinal Counts:")
-
-for class_name in model.names.values():
-
-    print(
-        f"{class_name.capitalize()} Passed: "
-        f"{class_counts[class_name]}"
+    cv2.putText(
+        frame,
+        f"Frame: {frameNumber}/{totalFrames}",
+        (width - 280, 35),
+        cv2.FONT_HERSHEY_SIMPLEX,
+        0.65,
+        (255, 255, 255),
+        2
     )
 
+    writer.write(frame)
+
+    if frameNumber % 100 == 0:
+
+        progress = (frameNumber / totalFrames) * 100
+
+        print(
+            f"Processed: "
+            f"{frameNumber}/{totalFrames} "
+            f"({progress:.1f}%)"
+        )
+
+cap.release()
+writer.release()
+
+print("\n======================================")
+print("PROCESSING COMPLETE")
+print("======================================")
+
+print("\nFINAL COUNTS:")
+
+for classID, className in classNames.items():
+    print(
+        f"{className}: "
+        f"{classCounts[classID]}"
+    )
+
+print(
+    "\nUnique Track IDs counted:",
+    len(countedIDs)
+)
+
 print("\nOutput video:")
-print(output_path)
+print(outputVideoPath)
