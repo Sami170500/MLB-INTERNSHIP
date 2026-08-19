@@ -85,5 +85,18 @@ The COCO pretrained model already had useful learned visual features, so it adap
 - Google Colab
 - NVIDIA Tesla T4
 - YOLO Segmentation Format
-```
+## Dataset
+
+The complete dataset is available on Google Drive because the dataset is too large to include directly in this GitHub repository.
+
+[Download Full Dataset](https://drive.google.com/file/d/1Bu7L2y2GKWUCQ8zO3mf8Pk82NzTufvHI/view?usp=drive_link)
+
+The dataset contains:
+
+- 44 training images
+- 12 validation images
+- YOLO segmentation polygon annotations
+- 11 unseen test images
+
+The dataset was manually annotated using MakeSense.ai.
 
