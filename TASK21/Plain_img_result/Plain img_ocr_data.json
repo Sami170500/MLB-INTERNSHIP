@@ -1,0 +1,5057 @@
+{
+    "image": "C:\\Users\\SYED\\Desktop\\Task 21\\Raw\\Plain img.jpeg",
+    "ocr_engine": "Tesseract",
+    "overall_confidence": 73.95,
+    "results": [
+        {
+            "text": "»",
+            "coordinates": [
+                31,
+                6,
+                9,
+                2
+            ],
+            "confidence": 0.0
+        },
+        {
+            "text": "SS",
+            "coordinates": [
+                74,
+                0,
+                3,
+                5
+            ],
+            "confidence": 18.0
+        },
+        {
+            "text": "ty",
+            "coordinates": [
+                96,
+                0,
+                17,
+                5
+            ],
+            "confidence": 41.0
+        },
+        {
+            "text": "4",
+            "coordinates": [
+                142,
+                0,
+                16,
+                11
+            ],
+            "confidence": 49.0
+        },
+        {
+            "text": "Ss",
+            "coordinates": [
+                195,
+                0,
+                8,
+                12
+            ],
+            "confidence": 0.0
+        },
+        {
+            "text": "ee",
+            "coordinates": [
+                327,
+                0,
+                21,
+                6
+            ],
+            "confidence": 0.0
+        },
+        {
+            "text": "q",
+            "coordinates": [
+                404,
+                0,
+                0,
+                3
+            ],
+            "confidence": 83.0
+        },
+        {
+            "text": "tt",
+            "coordinates": [
+                19,
+                0,
+                48,
+                29
+            ],
+            "confidence": 46.0
+        },
+        {
+            "text": "a\"",
+            "coordinates": [
+                80,
+                0,
+                30,
+                34
+            ],
+            "confidence": 23.0
+        },
+        {
+            "text": "”",
+            "coordinates": [
+                124,
+                10,
+                12,
+                18
+            ],
+            "confidence": 54.0
+        },
+        {
+            "text": "PEM",
+            "coordinates": [
+                152,
+                0,
+                21,
+                24
+            ],
+            "confidence": 0.0
+        },
+        {
+            "text": "bp",
+            "coordinates": [
+                214,
+                12,
+                13,
+                11
+            ],
+            "confidence": 26.0
+        },
+        {
+            "text": "ee",
+            "coordinates": [
+                238,
+                5,
+                19,
+                18
+            ],
+            "confidence": 18.0
+        },
+        {
+            "text": "Sua»",
+            "coordinates": [
+                268,
+                5,
+                45,
+                18
+            ],
+            "confidence": 0.0
+        },
+        {
+            "text": "|",
+            "coordinates": [
+                336,
+                12,
+                4,
+                9
+            ],
+            "confidence": 92.0
+        },
+        {
+            "text": "ese",
+            "coordinates": [
+                351,
+                0,
+                65,
+                30
+            ],
+            "confidence": 0.0
+        },
+        {
+            "text": "MN",
+            "coordinates": [
+                433,
+                5,
+                62,
+                14
+            ],
+            "confidence": 0.0
+        },
+        {
+            "text": "IT",
+            "coordinates": [
+                518,
+                3,
+                8,
+                16
+            ],
+            "confidence": 11.0
+        },
+        {
+            "text": "Ma",
+            "coordinates": [
+                541,
+                6,
+                7,
+                11
+            ],
+            "confidence": 31.0
+        },
+        {
+            "text": ",",
+            "coordinates": [
+                10,
+                37,
+                2,
+                6
+            ],
+            "confidence": 43.0
+        },
+        {
+            "text": "|",
+            "coordinates": [
+                27,
+                39,
+                11,
+                4
+            ],
+            "confidence": 40.0
+        },
+        {
+            "text": "7}",
+            "coordinates": [
+                156,
+                10,
+                19,
+                37
+            ],
+            "confidence": 32.0
+        },
+        {
+            "text": "es",
+            "coordinates": [
+                189,
+                26,
+                29,
+                13
+            ],
+            "confidence": 33.0
+        },
+        {
+            "text": ".",
+            "coordinates": [
+                251,
+                27,
+                3,
+                5
+            ],
+            "confidence": 0.0
+        },
+        {
+            "text": "bee",
+            "coordinates": [
+                328,
+                22,
+                22,
+                13
+            ],
+            "confidence": 39.0
+        },
+        {
+            "text": "Ny",
+            "coordinates": [
+                369,
+                17,
+                15,
+                11
+            ],
+            "confidence": 7.0
+        },
+        {
+            "text": "haf",
+            "coordinates": [
+                395,
+                12,
+                21,
+                26
+            ],
+            "confidence": 45.0
+        },
+        {
+            "text": "4",
+            "coordinates": [
+                435,
+                22,
+                1,
+                5
+            ],
+            "confidence": 59.0
+        },
+        {
+            "text": "PAY",
+            "coordinates": [
+                460,
+                21,
+                16,
+                7
+            ],
+            "confidence": 27.0
+        },
+        {
+            "text": "AR",
+            "coordinates": [
+                492,
+                19,
+                60,
+                12
+            ],
+            "confidence": 45.0
+        },
+        {
+            "text": "a",
+            "coordinates": [
+                528,
+                17,
+                9,
+                17
+            ],
+            "confidence": 36.0
+        },
+        {
+            "text": "it",
+            "coordinates": [
+                545,
+                17,
+                9,
+                17
+            ],
+            "confidence": 20.0
+        },
+        {
+            "text": "+h",
+            "coordinates": [
+                11,
+                46,
+                26,
+                5
+            ],
+            "confidence": 25.0
+        },
+        {
+            "text": "hie",
+            "coordinates": [
+                54,
+                34,
+                13,
+                22
+            ],
+            "confidence": 35.0
+        },
+        {
+            "text": "|",
+            "coordinates": [
+                72,
+                36,
+                2,
+                12
+            ],
+            "confidence": 76.0
+        },
+        {
+            "text": "4",
+            "coordinates": [
+                93,
+                41,
+                5,
+                9
+            ],
+            "confidence": 75.0
+        },
+        {
+            "text": "%",
+            "coordinates": [
+                118,
+                35,
+                9,
+                14
+            ],
+            "confidence": 8.0
+        },
+        {
+            "text": "3",
+            "coordinates": [
+                145,
+                46,
+                2,
+                5
+            ],
+            "confidence": 65.0
+        },
+        {
+            "text": "é",
+            "coordinates": [
+                175,
+                47,
+                2,
+                3
+            ],
+            "confidence": 0.0
+        },
+        {
+            "text": "a",
+            "coordinates": [
+                211,
+                40,
+                1,
+                1
+            ],
+            "confidence": 12.0
+        },
+        {
+            "text": "ee",
+            "coordinates": [
+                252,
+                33,
+                21,
+                14
+            ],
+            "confidence": 31.0
+        },
+        {
+            "text": "ps",
+            "coordinates": [
+                334,
+                30,
+                21,
+                13
+            ],
+            "confidence": 21.0
+        },
+        {
+            "text": "'",
+            "coordinates": [
+                406,
+                40,
+                1,
+                2
+            ],
+            "confidence": 0.0
+        },
+        {
+            "text": "iif",
+            "coordinates": [
+                440,
+                20,
+                21,
+                30
+            ],
+            "confidence": 27.0
+        },
+        {
+            "text": "AAA",
+            "coordinates": [
+                480,
+                30,
+                38,
+                12
+            ],
+            "confidence": 0.0
+        },
+        {
+            "text": "bs",
+            "coordinates": [
+                526,
+                29,
+                7,
+                11
+            ],
+            "confidence": 0.0
+        },
+        {
+            "text": "i",
+            "coordinates": [
+                23,
+                61,
+                1,
+                1
+            ],
+            "confidence": 64.0
+        },
+        {
+            "text": "Peis",
+            "coordinates": [
+                53,
+                48,
+                74,
+                15
+            ],
+            "confidence": 12.0
+        },
+        {
+            "text": "©",
+            "coordinates": [
+                145,
+                51,
+                2,
+                3
+            ],
+            "confidence": 17.0
+        },
+        {
+            "text": "nae",
+            "coordinates": [
+                243,
+                41,
+                23,
+                20
+            ],
+            "confidence": 56.0
+        },
+        {
+            "text": "a\"",
+            "coordinates": [
+                333,
+                43,
+                23,
+                12
+            ],
+            "confidence": 54.0
+        },
+        {
+            "text": "Whee",
+            "coordinates": [
+                414,
+                31,
+                31,
+                25
+            ],
+            "confidence": 13.0
+        },
+        {
+            "text": "Lieut",
+            "coordinates": [
+                485,
+                32,
+                37,
+                22
+            ],
+            "confidence": 26.0
+        },
+        {
+            "text": "{iN",
+            "coordinates": [
+                539,
+                36,
+                14,
+                15
+            ],
+            "confidence": 40.0
+        },
+        {
+            "text": "4",
+            "coordinates": [
+                12,
+                58,
+                19,
+                15
+            ],
+            "confidence": 15.0
+        },
+        {
+            "text": "ONFee",
+            "coordinates": [
+                42,
+                51,
+                42,
+                30
+            ],
+            "confidence": 0.0
+        },
+        {
+            "text": "Pera",
+            "coordinates": [
+                92,
+                51,
+                36,
+                30
+            ],
+            "confidence": 14.0
+        },
+        {
+            "text": "‘+",
+            "coordinates": [
+                224,
+                61,
+                2,
+                1
+            ],
+            "confidence": 23.0
+        },
+        {
+            "text": "ae",
+            "coordinates": [
+                375,
+                51,
+                75,
+                13
+            ],
+            "confidence": 35.0
+        },
+        {
+            "text": "i!",
+            "coordinates": [
+                535,
+                48,
+                5,
+                16
+            ],
+            "confidence": 55.0
+        },
+        {
+            "text": "¥",
+            "coordinates": [
+                9,
+                74,
+                7,
+                13
+            ],
+            "confidence": 39.0
+        },
+        {
+            "text": "8",
+            "coordinates": [
+                29,
+                85,
+                2,
+                3
+            ],
+            "confidence": 30.0
+        },
+        {
+            "text": "|",
+            "coordinates": [
+                39,
+                74,
+                1,
+                15
+            ],
+            "confidence": 64.0
+        },
+        {
+            "text": "3",
+            "coordinates": [
+                53,
+                81,
+                3,
+                7
+            ],
+            "confidence": 59.0
+        },
+        {
+            "text": "q",
+            "coordinates": [
+                233,
+                79,
+                1,
+                1
+            ],
+            "confidence": 63.0
+        },
+        {
+            "text": "‘",
+            "coordinates": [
+                286,
+                80,
+                0,
+                2
+            ],
+            "confidence": 35.0
+        },
+        {
+            "text": "i",
+            "coordinates": [
+                421,
+                71,
+                1,
+                4
+            ],
+            "confidence": 64.0
+        },
+        {
+            "text": "}",
+            "coordinates": [
+                529,
+                64,
+                1,
+                4
+            ],
+            "confidence": 26.0
+        },
+        {
+            "text": ";",
+            "coordinates": [
+                0,
+                95,
+                2,
+                6
+            ],
+            "confidence": 12.0
+        },
+        {
+            "text": "t",
+            "coordinates": [
+                38,
+                92,
+                3,
+                8
+            ],
+            "confidence": 0.0
+        },
+        {
+            "text": "\\",
+            "coordinates": [
+                47,
+                98,
+                11,
+                23
+            ],
+            "confidence": 64.0
+        },
+        {
+            "text": "Juetion",
+            "coordinates": [
+                221,
+                218,
+                28,
+                4
+            ],
+            "confidence": 17.0
+        },
+        {
+            "text": "t",
+            "coordinates": [
+                261,
+                219,
+                1,
+                1
+            ],
+            "confidence": 51.0
+        },
+        {
+            "text": "Seomtoge",
+            "coordinates": [
+                272,
+                216,
+                39,
+                5
+            ],
+            "confidence": 0.0
+        },
+        {
+            "text": "SCM",
+            "coordinates": [
+                327,
+                214,
+                4,
+                3
+            ],
+            "confidence": 63.0
+        },
+        {
+            "text": "|",
+            "coordinates": [
+                345,
+                212,
+                5,
+                5
+            ],
+            "confidence": 66.0
+        },
+        {
+            "text": "norms.",
+            "coordinates": [
+                196,
+                262,
+                34,
+                5
+            ],
+            "confidence": 88.0
+        },
+        {
+            "text": "beliefs",
+            "coordinates": [
+                243,
+                259,
+                36,
+                8
+            ],
+            "confidence": 45.0
+        },
+        {
+            "text": "matitutians.",
+            "coordinates": [
+                294,
+                258,
+                62,
+                8
+            ],
+            "confidence": 20.0
+        },
+        {
+            "text": "and",
+            "coordinates": [
+                370,
+                253,
+                19,
+                9
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "behaviour",
+            "coordinates": [
+                398,
+                252,
+                56,
+                9
+            ],
+            "confidence": 0.0
+        },
+        {
+            "text": "Mere",
+            "coordinates": [
+                468,
+                250,
+                25,
+                9
+            ],
+            "confidence": 81.0
+        },
+        {
+            "text": "are",
+            "coordinates": [
+                504,
+                252,
+                15,
+                6
+            ],
+            "confidence": 94.0
+        },
+        {
+            "text": "a",
+            "coordinates": [
+                530,
+                251,
+                4,
+                6
+            ],
+            "confidence": 93.0
+        },
+        {
+            "text": "few",
+            "coordinates": [
+                544,
+                248,
+                20,
+                9
+            ],
+            "confidence": 82.0
+        },
+        {
+            "text": "notable",
+            "coordinates": [
+                573,
+                246,
+                42,
+                10
+            ],
+            "confidence": 73.0
+        },
+        {
+            "text": "extra",
+            "coordinates": [
+                625,
+                240,
+                29,
+                18
+            ],
+            "confidence": 69.0
+        },
+        {
+            "text": "sec",
+            "coordinates": [
+                662,
+                240,
+                13,
+                18
+            ],
+            "confidence": 33.0
+        },
+        {
+            "text": "retal",
+            "coordinates": [
+                681,
+                242,
+                23,
+                9
+            ],
+            "confidence": 33.0
+        },
+        {
+            "text": "factors",
+            "coordinates": [
+                196,
+                278,
+                36,
+                7
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "that",
+            "coordinates": [
+                239,
+                276,
+                19,
+                8
+            ],
+            "confidence": 92.0
+        },
+        {
+            "text": "have",
+            "coordinates": [
+                265,
+                275,
+                25,
+                8
+            ],
+            "confidence": 94.0
+        },
+        {
+            "text": "influenced",
+            "coordinates": [
+                297,
+                271,
+                59,
+                11
+            ],
+            "confidence": 73.0
+        },
+        {
+            "text": "sae",
+            "coordinates": [
+                361,
+                273,
+                15,
+                6
+            ],
+            "confidence": 81.0
+        },
+        {
+            "text": "wal",
+            "coordinates": [
+                381,
+                269,
+                22,
+                10
+            ],
+            "confidence": 60.0
+        },
+        {
+            "text": "change",
+            "coordinates": [
+                410,
+                268,
+                39,
+                11
+            ],
+            "confidence": 93.0
+        },
+        {
+            "text": "Technotogreal",
+            "coordinates": [
+                199,
+                305,
+                83,
+                16
+            ],
+            "confidence": 30.0
+        },
+        {
+            "text": "Advancements:",
+            "coordinates": [
+                291,
+                305,
+                88,
+                11
+            ],
+            "confidence": 88.0
+        },
+        {
+            "text": "Tet",
+            "coordinates": [
+                388,
+                302,
+                15,
+                9
+            ],
+            "confidence": 66.0
+        },
+        {
+            "text": "hntwal",
+            "coordinates": [
+                407,
+                300,
+                34,
+                10
+            ],
+            "confidence": 17.0
+        },
+        {
+            "text": "advancement",
+            "coordinates": [
+                449,
+                300,
+                75,
+                10
+            ],
+            "confidence": 0.0
+        },
+        {
+            "text": "lechnologwal",
+            "coordinates": [
+                536,
+                294,
+                80,
+                17
+            ],
+            "confidence": 41.0
+        },
+        {
+            "text": "developments",
+            "coordinates": [
+                624,
+                291,
+                81,
+                15
+            ],
+            "confidence": 43.0
+        },
+        {
+            "text": "hawe",
+            "coordinates": [
+                197,
+                328,
+                22,
+                6
+            ],
+            "confidence": 78.0
+        },
+        {
+            "text": "a",
+            "coordinates": [
+                231,
+                328,
+                4,
+                6
+            ],
+            "confidence": 70.0
+        },
+        {
+            "text": "big",
+            "coordinates": [
+                245,
+                325,
+                16,
+                9
+            ],
+            "confidence": 86.0
+        },
+        {
+            "text": "dmpact",
+            "coordinates": [
+                271,
+                325,
+                36,
+                10
+            ],
+            "confidence": 0.0
+        },
+        {
+            "text": "on",
+            "coordinates": [
+                317,
+                325,
+                13,
+                6
+            ],
+            "confidence": 85.0
+        },
+        {
+            "text": "ecrviligation",
+            "coordinates": [
+                338,
+                320,
+                64,
+                10
+            ],
+            "confidence": 37.0
+        },
+        {
+            "text": "New",
+            "coordinates": [
+                415,
+                318,
+                25,
+                9
+            ],
+            "confidence": 91.0
+        },
+        {
+            "text": "tedhnologies",
+            "coordinates": [
+                450,
+                316,
+                73,
+                11
+            ],
+            "confidence": 72.0
+        },
+        {
+            "text": "development",
+            "coordinates": [
+                534,
+                314,
+                75,
+                11
+            ],
+            "confidence": 92.0
+        },
+        {
+            "text": "and",
+            "coordinates": [
+                619,
+                311,
+                19,
+                11
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "use",
+            "coordinates": [
+                648,
+                313,
+                17,
+                7
+            ],
+            "confidence": 83.0
+        },
+        {
+            "text": "could",
+            "coordinates": [
+                675,
+                308,
+                31,
+                10
+            ],
+            "confidence": 57.0
+        },
+        {
+            "text": "hange",
+            "coordinates": [
+                204,
+                344,
+                29,
+                9
+            ],
+            "confidence": 90.0
+        },
+        {
+            "text": "how",
+            "coordinates": [
+                243,
+                342,
+                21,
+                8
+            ],
+            "confidence": 93.0
+        },
+        {
+            "text": "peaple",
+            "coordinates": [
+                274,
+                340,
+                36,
+                11
+            ],
+            "confidence": 58.0
+        },
+        {
+            "text": "mrteract",
+            "coordinates": [
+                319,
+                339,
+                40,
+                8
+            ],
+            "confidence": 35.0
+        },
+        {
+            "text": "live.",
+            "coordinates": [
+                371,
+                336,
+                19,
+                9
+            ],
+            "confidence": 78.0
+        },
+        {
+            "text": "work,",
+            "coordinates": [
+                401,
+                334,
+                28,
+                9
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "and",
+            "coordinates": [
+                440,
+                333,
+                20,
+                10
+            ],
+            "confidence": 91.0
+        },
+        {
+            "text": "Gommunivate",
+            "coordinates": [
+                466,
+                333,
+                78,
+                10
+            ],
+            "confidence": 26.0
+        },
+        {
+            "text": "Fer",
+            "coordinates": [
+                556,
+                330,
+                17,
+                9
+            ],
+            "confidence": 87.0
+        },
+        {
+            "text": "instance",
+            "coordinates": [
+                582,
+                331,
+                45,
+                8
+            ],
+            "confidence": 21.0
+        },
+        {
+            "text": "the",
+            "coordinates": [
+                639,
+                328,
+                16,
+                9
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "internet",
+            "coordinates": [
+                663,
+                327,
+                43,
+                8
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "and",
+            "coordinates": [
+                197,
+                361,
+                19,
+                7
+            ],
+            "confidence": 80.0
+        },
+        {
+            "text": "celtphones",
+            "coordinates": [
+                222,
+                358,
+                60,
+                10
+            ],
+            "confidence": 69.0
+        },
+        {
+            "text": "have",
+            "coordinates": [
+                289,
+                357,
+                25,
+                8
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "altered",
+            "coordinates": [
+                321,
+                354,
+                38,
+                10
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "how",
+            "coordinates": [
+                365,
+                353,
+                22,
+                9
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "information",
+            "coordinates": [
+                395,
+                352,
+                67,
+                9
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "16",
+            "coordinates": [
+                468,
+                352,
+                8,
+                7
+            ],
+            "confidence": 81.0
+        },
+        {
+            "text": "reverved,",
+            "coordinates": [
+                482,
+                348,
+                48,
+                11
+            ],
+            "confidence": 87.0
+        },
+        {
+            "text": "which",
+            "coordinates": [
+                540,
+                347,
+                34,
+                10
+            ],
+            "confidence": 69.0
+        },
+        {
+            "text": "has",
+            "coordinates": [
+                580,
+                346,
+                18,
+                9
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "had",
+            "coordinates": [
+                605,
+                345,
+                20,
+                10
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "an",
+            "coordinates": [
+                630,
+                348,
+                12,
+                7
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "impact",
+            "coordinates": [
+                649,
+                345,
+                38,
+                10
+            ],
+            "confidence": 78.0
+        },
+        {
+            "text": "oF",
+            "coordinates": [
+                694,
+                345,
+                12,
+                6
+            ],
+            "confidence": 44.0
+        },
+        {
+            "text": "how",
+            "coordinates": [
+                198,
+                376,
+                21,
+                7
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "people",
+            "coordinates": [
+                226,
+                376,
+                34,
+                10
+            ],
+            "confidence": 77.0
+        },
+        {
+            "text": "communwate.",
+            "coordinates": [
+                269,
+                373,
+                76,
+                9
+            ],
+            "confidence": 34.0
+        },
+        {
+            "text": "learn",
+            "coordinates": [
+                356,
+                370,
+                27,
+                9
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "and",
+            "coordinates": [
+                392,
+                368,
+                19,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "conduct",
+            "coordinates": [
+                417,
+                367,
+                45,
+                10
+            ],
+            "confidence": 61.0
+        },
+        {
+            "text": "business",
+            "coordinates": [
+                467,
+                366,
+                48,
+                9
+            ],
+            "confidence": 94.0
+        },
+        {
+            "text": "Reonomic",
+            "coordinates": [
+                198,
+                392,
+                59,
+                9
+            ],
+            "confidence": 12.0
+        },
+        {
+            "text": "Forces",
+            "coordinates": [
+                265,
+                390,
+                39,
+                10
+            ],
+            "confidence": 84.0
+        },
+        {
+            "text": "Globalization,",
+            "coordinates": [
+                316,
+                387,
+                82,
+                10
+            ],
+            "confidence": 84.0
+        },
+        {
+            "text": "economic",
+            "coordinates": [
+                405,
+                386,
+                55,
+                8
+            ],
+            "confidence": 5.0
+        },
+        {
+            "text": "crises",
+            "coordinates": [
+                469,
+                386,
+                32,
+                7
+            ],
+            "confidence": 34.0
+        },
+        {
+            "text": "and",
+            "coordinates": [
+                512,
+                381,
+                20,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "changes",
+            "coordinates": [
+                539,
+                381,
+                47,
+                12
+            ],
+            "confidence": 94.0
+        },
+        {
+            "text": "in",
+            "coordinates": [
+                594,
+                382,
+                9,
+                7
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "the",
+            "coordinates": [
+                611,
+                379,
+                16,
+                9
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "employment",
+            "coordinates": [
+                635,
+                378,
+                73,
+                12
+            ],
+            "confidence": 53.0
+        },
+        {
+            "text": "market",
+            "coordinates": [
+                198,
+                409,
+                38,
+                8
+            ],
+            "confidence": 30.0
+        },
+        {
+            "text": "are",
+            "coordinates": [
+                247,
+                410,
+                15,
+                6
+            ],
+            "confidence": 92.0
+        },
+        {
+            "text": "examples",
+            "coordinates": [
+                272,
+                407,
+                53,
+                10
+            ],
+            "confidence": 91.0
+        },
+        {
+            "text": "of",
+            "coordinates": [
+                336,
+                405,
+                10,
+                8
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "economic",
+            "coordinates": [
+                356,
+                404,
+                55,
+                8
+            ],
+            "confidence": 87.0
+        },
+        {
+            "text": "pressures",
+            "coordinates": [
+                422,
+                403,
+                53,
+                11
+            ],
+            "confidence": 87.0
+        },
+        {
+            "text": "that",
+            "coordinates": [
+                485,
+                400,
+                20,
+                10
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "can",
+            "coordinates": [
+                515,
+                401,
+                19,
+                7
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "have",
+            "coordinates": [
+                544,
+                398,
+                26,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "an",
+            "coordinates": [
+                581,
+                399,
+                12,
+                7
+            ],
+            "confidence": 91.0
+        },
+        {
+            "text": "impadt",
+            "coordinates": [
+                604,
+                396,
+                38,
+                12
+            ],
+            "confidence": 35.0
+        },
+        {
+            "text": "on",
+            "coordinates": [
+                652,
+                397,
+                13,
+                7
+            ],
+            "confidence": 92.0
+        },
+        {
+            "text": "sec",
+            "coordinates": [
+                675,
+                395,
+                33,
+                8
+            ],
+            "confidence": 22.0
+        },
+        {
+            "text": "development",
+            "coordinates": [
+                198,
+                425,
+                73,
+                10
+            ],
+            "confidence": 75.0
+        },
+        {
+            "text": "For",
+            "coordinates": [
+                286,
+                423,
+                17,
+                9
+            ],
+            "confidence": 93.0
+        },
+        {
+            "text": "instance,",
+            "coordinates": [
+                315,
+                423,
+                49,
+                8
+            ],
+            "confidence": 33.0
+        },
+        {
+            "text": "cultures,",
+            "coordinates": [
+                375,
+                419,
+                49,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "ideas,",
+            "coordinates": [
+                435,
+                417,
+                32,
+                10
+            ],
+            "confidence": 91.0
+        },
+        {
+            "text": "and",
+            "coordinates": [
+                477,
+                416,
+                19,
+                11
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "products",
+            "coordinates": [
+                508,
+                415,
+                49,
+                13
+            ],
+            "confidence": 92.0
+        },
+        {
+            "text": "have",
+            "coordinates": [
+                568,
+                414,
+                26,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "migrated",
+            "coordinates": [
+                605,
+                411,
+                51,
+                14
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "hevond",
+            "coordinates": [
+                665,
+                408,
+                45,
+                18
+            ],
+            "confidence": 74.0
+        },
+        {
+            "text": "euttonal",
+            "coordinates": [
+                198,
+                442,
+                45,
+                9
+            ],
+            "confidence": 49.0
+        },
+        {
+            "text": "boundaries",
+            "coordinates": [
+                249,
+                440,
+                62,
+                9
+            ],
+            "confidence": 72.0
+        },
+        {
+            "text": "as",
+            "coordinates": [
+                318,
+                441,
+                10,
+                7
+            ],
+            "confidence": 94.0
+        },
+        {
+            "text": "a",
+            "coordinates": [
+                335,
+                440,
+                5,
+                7
+            ],
+            "confidence": 86.0
+        },
+        {
+            "text": "result",
+            "coordinates": [
+                345,
+                436,
+                31,
+                11
+            ],
+            "confidence": 86.0
+        },
+        {
+            "text": "of",
+            "coordinates": [
+                383,
+                436,
+                11,
+                9
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "increased",
+            "coordinates": [
+                400,
+                434,
+                54,
+                11
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "global",
+            "coordinates": [
+                460,
+                433,
+                35,
+                13
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "connectivity",
+            "coordinates": [
+                501,
+                432,
+                71,
+                11
+            ],
+            "confidence": 77.0
+        },
+        {
+            "text": "Economie",
+            "coordinates": [
+                583,
+                430,
+                58,
+                10
+            ],
+            "confidence": 67.0
+        },
+        {
+            "text": "downturns",
+            "coordinates": [
+                648,
+                425,
+                64,
+                17
+            ],
+            "confidence": 22.0
+        },
+        {
+            "text": "ean",
+            "coordinates": [
+                198,
+                461,
+                18,
+                7
+            ],
+            "confidence": 72.0
+        },
+        {
+            "text": "alter",
+            "coordinates": [
+                224,
+                459,
+                23,
+                8
+            ],
+            "confidence": 93.0
+        },
+        {
+            "text": "the",
+            "coordinates": [
+                256,
+                457,
+                16,
+                9
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "way",
+            "coordinates": [
+                279,
+                458,
+                20,
+                7
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "people",
+            "coordinates": [
+                309,
+                454,
+                38,
+                13
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "are",
+            "coordinates": [
+                354,
+                456,
+                16,
+                8
+            ],
+            "confidence": 94.0
+        },
+        {
+            "text": "paid",
+            "coordinates": [
+                379,
+                452,
+                23,
+                13
+            ],
+            "confidence": 94.0
+        },
+        {
+            "text": "and",
+            "coordinates": [
+                409,
+                451,
+                20,
+                11
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "the",
+            "coordinates": [
+                436,
+                451,
+                17,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "patterns",
+            "coordinates": [
+                460,
+                452,
+                45,
+                11
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "of",
+            "coordinates": [
+                513,
+                449,
+                12,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "their",
+            "coordinates": [
+                531,
+                449,
+                26,
+                10
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "employment.",
+            "coordinates": [
+                564,
+                447,
+                73,
+                13
+            ],
+            "confidence": 54.0
+        },
+        {
+            "text": "which",
+            "coordinates": [
+                649,
+                445,
+                35,
+                10
+            ],
+            "confidence": 94.0
+        },
+        {
+            "text": "can",
+            "coordinates": [
+                692,
+                447,
+                18,
+                6
+            ],
+            "confidence": 78.0
+        },
+        {
+            "text": "have",
+            "coordinates": [
+                198,
+                476,
+                25,
+                9
+            ],
+            "confidence": 54.0
+        },
+        {
+            "text": "an",
+            "coordinates": [
+                230,
+                477,
+                11,
+                6
+            ],
+            "confidence": 91.0
+        },
+        {
+            "text": "effect",
+            "coordinates": [
+                247,
+                474,
+                31,
+                9
+            ],
+            "confidence": 91.0
+        },
+        {
+            "text": "on",
+            "coordinates": [
+                284,
+                475,
+                12,
+                6
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "social",
+            "coordinates": [
+                303,
+                471,
+                33,
+                11
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "structures",
+            "coordinates": [
+                341,
+                472,
+                56,
+                9
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "and",
+            "coordinates": [
+                402,
+                468,
+                20,
+                11
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "behaviour",
+            "coordinates": [
+                427,
+                468,
+                58,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "Political",
+            "coordinates": [
+                199,
+                508,
+                49,
+                10
+            ],
+            "confidence": 94.0
+        },
+        {
+            "text": "Movements",
+            "coordinates": [
+                257,
+                506,
+                71,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "and",
+            "coordinates": [
+                336,
+                504,
+                23,
+                10
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "Policies:Political",
+            "coordinates": [
+                367,
+                501,
+                100,
+                13
+            ],
+            "confidence": 91.0
+        },
+        {
+            "text": "movements",
+            "coordinates": [
+                475,
+                501,
+                67,
+                10
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "and",
+            "coordinates": [
+                549,
+                498,
+                20,
+                11
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "governmental",
+            "coordinates": [
+                578,
+                496,
+                81,
+                15
+            ],
+            "confidence": 93.0
+        },
+        {
+            "text": "policies",
+            "coordinates": [
+                667,
+                495,
+                45,
+                13
+            ],
+            "confidence": 25.0
+        },
+        {
+            "text": "my",
+            "coordinates": [
+                200,
+                528,
+                21,
+                6
+            ],
+            "confidence": 61.0
+        },
+        {
+            "text": "serve",
+            "coordinates": [
+                231,
+                527,
+                28,
+                7
+            ],
+            "confidence": 84.0
+        },
+        {
+            "text": "as",
+            "coordinates": [
+                269,
+                527,
+                10,
+                6
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "catalysts",
+            "coordinates": [
+                288,
+                522,
+                50,
+                13
+            ],
+            "confidence": 88.0
+        },
+        {
+            "text": "for",
+            "coordinates": [
+                346,
+                521,
+                16,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "social",
+            "coordinates": [
+                370,
+                520,
+                33,
+                11
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "transformation",
+            "coordinates": [
+                411,
+                518,
+                85,
+                11
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "For",
+            "coordinates": [
+                509,
+                517,
+                19,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "instance,",
+            "coordinates": [
+                536,
+                518,
+                47,
+                9
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "the",
+            "coordinates": [
+                596,
+                514,
+                16,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "American",
+            "coordinates": [
+                622,
+                514,
+                57,
+                9
+            ],
+            "confidence": 81.0
+        },
+        {
+            "text": "civil",
+            "coordinates": [
+                688,
+                512,
+                25,
+                9
+            ],
+            "confidence": 71.0
+        },
+        {
+            "text": "rights",
+            "coordinates": [
+                200,
+                543,
+                31,
+                11
+            ],
+            "confidence": 90.0
+        },
+        {
+            "text": "campaigns",
+            "coordinates": [
+                238,
+                543,
+                61,
+                10
+            ],
+            "confidence": 93.0
+        },
+        {
+            "text": "in",
+            "coordinates": [
+                306,
+                542,
+                10,
+                7
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "the",
+            "coordinates": [
+                322,
+                539,
+                17,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "middle",
+            "coordinates": [
+                345,
+                537,
+                40,
+                11
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "of",
+            "coordinates": [
+                391,
+                537,
+                12,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "the",
+            "coordinates": [
+                408,
+                536,
+                17,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "20th",
+            "coordinates": [
+                431,
+                536,
+                24,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "century",
+            "coordinates": [
+                462,
+                537,
+                42,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "brought",
+            "coordinates": [
+                512,
+                533,
+                44,
+                13
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "about",
+            "coordinates": [
+                562,
+                532,
+                32,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "significant",
+            "coordinates": [
+                601,
+                530,
+                62,
+                14
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "judicial",
+            "coordinates": [
+                671,
+                528,
+                43,
+                13
+            ],
+            "confidence": 91.0
+        },
+        {
+            "text": "and",
+            "coordinates": [
+                200,
+                559,
+                19,
+                9
+            ],
+            "confidence": 92.0
+        },
+        {
+            "text": "sovial",
+            "coordinates": [
+                227,
+                560,
+                32,
+                7
+            ],
+            "confidence": 44.0
+        },
+        {
+            "text": "changes,",
+            "coordinates": [
+                266,
+                557,
+                50,
+                12
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "such",
+            "coordinates": [
+                324,
+                555,
+                26,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "as",
+            "coordinates": [
+                357,
+                558,
+                11,
+                7
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "the",
+            "coordinates": [
+                376,
+                554,
+                16,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "repeal",
+            "coordinates": [
+                400,
+                553,
+                34,
+                13
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "of",
+            "coordinates": [
+                441,
+                552,
+                12,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "segregation",
+            "coordinates": [
+                460,
+                553,
+                66,
+                12
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "laws",
+            "coordinates": [
+                534,
+                550,
+                26,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "and",
+            "coordinates": [
+                567,
+                548,
+                20,
+                11
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "the",
+            "coordinates": [
+                594,
+                548,
+                17,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "development",
+            "coordinates": [
+                619,
+                547,
+                77,
+                13
+            ],
+            "confidence": 93.0
+        },
+        {
+            "text": "of",
+            "coordinates": [
+                704,
+                545,
+                12,
+                10
+            ],
+            "confidence": 88.0
+        },
+        {
+            "text": "opel",
+            "coordinates": [
+                200,
+                576,
+                24,
+                9
+            ],
+            "confidence": 27.0
+        },
+        {
+            "text": "liberties.",
+            "coordinates": [
+                234,
+                575,
+                45,
+                9
+            ],
+            "confidence": 73.0
+        },
+        {
+            "text": "Government",
+            "coordinates": [
+                291,
+                574,
+                73,
+                9
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "health,",
+            "coordinates": [
+                374,
+                570,
+                38,
+                11
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "education,",
+            "coordinates": [
+                420,
+                570,
+                59,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "and",
+            "coordinates": [
+                488,
+                568,
+                20,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "social",
+            "coordinates": [
+                517,
+                567,
+                33,
+                11
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "welfare",
+            "coordinates": [
+                559,
+                566,
+                44,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "policies",
+            "coordinates": [
+                612,
+                564,
+                46,
+                13
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "have",
+            "coordinates": [
+                666,
+                563,
+                27,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "an",
+            "coordinates": [
+                702,
+                565,
+                13,
+                7
+            ],
+            "confidence": 91.0
+        },
+        {
+            "text": "effect",
+            "coordinates": [
+                200,
+                592,
+                31,
+                10
+            ],
+            "confidence": 59.0
+        },
+        {
+            "text": "on",
+            "coordinates": [
+                237,
+                595,
+                13,
+                6
+            ],
+            "confidence": 93.0
+        },
+        {
+            "text": "societal",
+            "coordinates": [
+                256,
+                590,
+                43,
+                10
+            ],
+            "confidence": 44.0
+        },
+        {
+            "text": "norms",
+            "coordinates": [
+                305,
+                592,
+                36,
+                8
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "and",
+            "coordinates": [
+                346,
+                589,
+                20,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "practise",
+            "coordinates": [
+                371,
+                590,
+                44,
+                11
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "Cultural",
+            "coordinates": [
+                200,
+                626,
+                53,
+                10
+            ],
+            "confidence": 91.0
+        },
+        {
+            "text": "interchange",
+            "coordinates": [
+                259,
+                624,
+                74,
+                13
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "and",
+            "coordinates": [
+                338,
+                623,
+                22,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "the",
+            "coordinates": [
+                365,
+                622,
+                19,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "Media:",
+            "coordinates": [
+                390,
+                621,
+                42,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "Cultural",
+            "coordinates": [
+                438,
+                619,
+                47,
+                11
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "interchange",
+            "coordinates": [
+                491,
+                618,
+                67,
+                12
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "can",
+            "coordinates": [
+                563,
+                620,
+                20,
+                7
+            ],
+            "confidence": 92.0
+        },
+        {
+            "text": "introduce",
+            "coordinates": [
+                588,
+                616,
+                56,
+                11
+            ],
+            "confidence": 79.0
+        },
+        {
+            "text": "novel",
+            "coordinates": [
+                649,
+                614,
+                32,
+                11
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "ideas,",
+            "coordinates": [
+                688,
+                614,
+                32,
+                9
+            ],
+            "confidence": 83.0
+        },
+        {
+            "text": "P",
+            "coordinates": [
+                78,
+                655,
+                2,
+                2
+            ],
+            "confidence": 73.0
+        },
+        {
+            "text": "beliefs,",
+            "coordinates": [
+                202,
+                643,
+                37,
+                9
+            ],
+            "confidence": 53.0
+        },
+        {
+            "text": "and",
+            "coordinates": [
+                252,
+                642,
+                19,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "lifestyles",
+            "coordinates": [
+                281,
+                640,
+                52,
+                13
+            ],
+            "confidence": 60.0
+        },
+        {
+            "text": "to",
+            "coordinates": [
+                343,
+                641,
+                10,
+                8
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "a",
+            "coordinates": [
+                362,
+                642,
+                5,
+                7
+            ],
+            "confidence": 94.0
+        },
+        {
+            "text": "culture",
+            "coordinates": [
+                377,
+                638,
+                40,
+                10
+            ],
+            "confidence": 94.0
+        },
+        {
+            "text": "International",
+            "coordinates": [
+                430,
+                636,
+                73,
+                12
+            ],
+            "confidence": 91.0
+        },
+        {
+            "text": "travel",
+            "coordinates": [
+                513,
+                634,
+                32,
+                11
+            ],
+            "confidence": 94.0
+        },
+        {
+            "text": "and",
+            "coordinates": [
+                554,
+                634,
+                20,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "the",
+            "coordinates": [
+                584,
+                633,
+                17,
+                10
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "media",
+            "coordinates": [
+                610,
+                632,
+                37,
+                11
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "make",
+            "coordinates": [
+                656,
+                631,
+                31,
+                11
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "this",
+            "coordinates": [
+                695,
+                629,
+                22,
+                17
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "feasible",
+            "coordinates": [
+                202,
+                660,
+                43,
+                10
+            ],
+            "confidence": 36.0
+        },
+        {
+            "text": "The",
+            "coordinates": [
+                259,
+                659,
+                19,
+                10
+            ],
+            "confidence": 89.0
+        },
+        {
+            "text": "media,",
+            "coordinates": [
+                287,
+                657,
+                38,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "which",
+            "coordinates": [
+                334,
+                656,
+                35,
+                11
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "includes",
+            "coordinates": [
+                378,
+                655,
+                47,
+                11
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "music.",
+            "coordinates": [
+                434,
+                657,
+                37,
+                7
+            ],
+            "confidence": 69.0
+        },
+        {
+            "text": "films.",
+            "coordinates": [
+                480,
+                653,
+                32,
+                10
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "television,",
+            "coordinates": [
+                520,
+                652,
+                60,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "and",
+            "coordinates": [
+                589,
+                650,
+                21,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "the",
+            "coordinates": [
+                618,
+                650,
+                17,
+                10
+            ],
+            "confidence": 93.0
+        },
+        {
+            "text": "imternet,",
+            "coordinates": [
+                644,
+                650,
+                48,
+                9
+            ],
+            "confidence": 84.0
+        },
+        {
+            "text": "are",
+            "coordinates": [
+                701,
+                651,
+                17,
+                7
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "crucial",
+            "coordinates": [
+                202,
+                677,
+                38,
+                10
+            ],
+            "confidence": 20.0
+        },
+        {
+            "text": "for",
+            "coordinates": [
+                246,
+                678,
+                14,
+                8
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "influencing",
+            "coordinates": [
+                267,
+                675,
+                66,
+                12
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "public",
+            "coordinates": [
+                338,
+                673,
+                35,
+                13
+            ],
+            "confidence": 88.0
+        },
+        {
+            "text": "epinion",
+            "coordinates": [
+                379,
+                672,
+                45,
+                14
+            ],
+            "confidence": 71.0
+        },
+        {
+            "text": "and",
+            "coordinates": [
+                429,
+                671,
+                20,
+                11
+            ],
+            "confidence": 97.0
+        },
+        {
+            "text": "for",
+            "coordinates": [
+                454,
+                671,
+                15,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "disseminating",
+            "coordinates": [
+                474,
+                670,
+                82,
+                11
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "cultural",
+            "coordinates": [
+                561,
+                667,
+                45,
+                11
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "influences",
+            "coordinates": [
+                611,
+                666,
+                61,
+                11
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "Environmental",
+            "coordinates": [
+                203,
+                710,
+                93,
+                12
+            ],
+            "confidence": 56.0
+        },
+        {
+            "text": "Factors:",
+            "coordinates": [
+                305,
+                709,
+                51,
+                10
+            ],
+            "confidence": 93.0
+        },
+        {
+            "text": "Bnvironmental",
+            "coordinates": [
+                367,
+                705,
+                86,
+                13
+            ],
+            "confidence": 53.0
+        },
+        {
+            "text": "issues,",
+            "coordinates": [
+                464,
+                705,
+                37,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "like",
+            "coordinates": [
+                511,
+                704,
+                20,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "global",
+            "coordinates": [
+                541,
+                702,
+                36,
+                14
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "warming",
+            "coordinates": [
+                587,
+                704,
+                53,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "and",
+            "coordinates": [
+                649,
+                701,
+                21,
+                10
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "natural",
+            "coordinates": [
+                679,
+                700,
+                40,
+                11
+            ],
+            "confidence": 94.0
+        },
+        {
+            "text": "disasters,",
+            "coordinates": [
+                202,
+                729,
+                49,
+                9
+            ],
+            "confidence": 45.0
+        },
+        {
+            "text": "can",
+            "coordinates": [
+                267,
+                730,
+                19,
+                7
+            ],
+            "confidence": 81.0
+        },
+        {
+            "text": "lead",
+            "coordinates": [
+                299,
+                726,
+                23,
+                11
+            ],
+            "confidence": 94.0
+        },
+        {
+            "text": "to",
+            "coordinates": [
+                335,
+                727,
+                10,
+                8
+            ],
+            "confidence": 94.0
+        },
+        {
+            "text": "social",
+            "coordinates": [
+                357,
+                724,
+                33,
+                11
+            ],
+            "confidence": 90.0
+        },
+        {
+            "text": "change",
+            "coordinates": [
+                403,
+                723,
+                40,
+                12
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "These",
+            "coordinates": [
+                460,
+                722,
+                34,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "issues",
+            "coordinates": [
+                507,
+                723,
+                34,
+                8
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "may",
+            "coordinates": [
+                553,
+                723,
+                23,
+                10
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "lead",
+            "coordinates": [
+                591,
+                719,
+                23,
+                11
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "te",
+            "coordinates": [
+                627,
+                721,
+                10,
+                8
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "changes",
+            "coordinates": [
+                650,
+                718,
+                48,
+                12
+            ],
+            "confidence": 13.0
+        },
+        {
+            "text": "environmental",
+            "coordinates": [
+                202,
+                744,
+                83,
+                12
+            ],
+            "confidence": 0.0
+        },
+        {
+            "text": "policy.",
+            "coordinates": [
+                292,
+                743,
+                39,
+                13
+            ],
+            "confidence": 10.0
+        },
+        {
+            "text": "practise,",
+            "coordinates": [
+                337,
+                744,
+                48,
+                12
+            ],
+            "confidence": 93.0
+        },
+        {
+            "text": "and",
+            "coordinates": [
+                391,
+                740,
+                20,
+                11
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "attitudes",
+            "coordinates": [
+                416,
+                739,
+                49,
+                12
+            ],
+            "confidence": 90.0
+        },
+        {
+            "text": "towards",
+            "coordinates": [
+                470,
+                738,
+                46,
+                11
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "sustainability",
+            "coordinates": [
+                521,
+                737,
+                78,
+                13
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "and",
+            "coordinates": [
+                606,
+                736,
+                21,
+                11
+            ],
+            "confidence": 97.0
+        },
+        {
+            "text": "conservation",
+            "coordinates": [
+                632,
+                737,
+                77,
+                9
+            ],
+            "confidence": 94.0
+        },
+        {
+            "text": "Demographic",
+            "coordinates": [
+                203,
+                779,
+                83,
+                13
+            ],
+            "confidence": 92.0
+        },
+        {
+            "text": "Changes:Social",
+            "coordinates": [
+                299,
+                776,
+                96,
+                14
+            ],
+            "confidence": 89.0
+        },
+        {
+            "text": "dynamics",
+            "coordinates": [
+                407,
+                775,
+                56,
+                13
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "may",
+            "coordinates": [
+                476,
+                776,
+                23,
+                9
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "be",
+            "coordinates": [
+                512,
+                773,
+                13,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "affected",
+            "coordinates": [
+                537,
+                772,
+                47,
+                11
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "by",
+            "coordinates": [
+                597,
+                771,
+                11,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "changes",
+            "coordinates": [
+                623,
+                771,
+                48,
+                13
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "im",
+            "coordinates": [
+                683,
+                773,
+                10,
+                7
+            ],
+            "confidence": 92.0
+        },
+        {
+            "text": "the",
+            "coordinates": [
+                705,
+                769,
+                17,
+                10
+            ],
+            "confidence": 94.0
+        },
+        {
+            "text": "pepulation'’s",
+            "coordinates": [
+                203,
+                797,
+                69,
+                12
+            ],
+            "confidence": 44.0
+        },
+        {
+            "text": "size,",
+            "coordinates": [
+                283,
+                798,
+                22,
+                7
+            ],
+            "confidence": 92.0
+        },
+        {
+            "text": "compesition,",
+            "coordinates": [
+                318,
+                795,
+                76,
+                12
+            ],
+            "confidence": 90.0
+        },
+        {
+            "text": "and",
+            "coordinates": [
+                405,
+                792,
+                20,
+                11
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "distribution.",
+            "coordinates": [
+                435,
+                791,
+                68,
+                11
+            ],
+            "confidence": 92.0
+        },
+        {
+            "text": "A",
+            "coordinates": [
+                517,
+                790,
+                8,
+                10
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "society's",
+            "coordinates": [
+                536,
+                791,
+                49,
+                10
+            ],
+            "confidence": 88.0
+        },
+        {
+            "text": "cultural,",
+            "coordinates": [
+                596,
+                788,
+                48,
+                11
+            ],
+            "confidence": 93.0
+        },
+        {
+            "text": "sooial,",
+            "coordinates": [
+                655,
+                788,
+                37,
+                10
+            ],
+            "confidence": 17.0
+        },
+        {
+            "text": "and",
+            "coordinates": [
+                703,
+                786,
+                20,
+                11
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "evonomic",
+            "coordinates": [
+                203,
+                817,
+                55,
+                7
+            ],
+            "confidence": 28.0
+        },
+        {
+            "text": "environment",
+            "coordinates": [
+                267,
+                813,
+                74,
+                9
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "might",
+            "coordinates": [
+                350,
+                811,
+                33,
+                13
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "change",
+            "coordinates": [
+                392,
+                810,
+                41,
+                12
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "as",
+            "coordinates": [
+                441,
+                812,
+                11,
+                7
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "a",
+            "coordinates": [
+                460,
+                812,
+                5,
+                7
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "result",
+            "coordinates": [
+                474,
+                808,
+                31,
+                11
+            ],
+            "confidence": 90.0
+        },
+        {
+            "text": "of",
+            "coordinates": [
+                514,
+                808,
+                10,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "factors",
+            "coordinates": [
+                534,
+                808,
+                39,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "including",
+            "coordinates": [
+                582,
+                806,
+                56,
+                13
+            ],
+            "confidence": 94.0
+        },
+        {
+            "text": "immigration,",
+            "coordinates": [
+                647,
+                806,
+                76,
+                11
+            ],
+            "confidence": 0.0
+        },
+        {
+            "text": "urbanization.",
+            "coordinates": [
+                204,
+                832,
+                72,
+                9
+            ],
+            "confidence": 72.0
+        },
+        {
+            "text": "and",
+            "coordinates": [
+                285,
+                829,
+                20,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "variations",
+            "coordinates": [
+                311,
+                831,
+                58,
+                8
+            ],
+            "confidence": 94.0
+        },
+        {
+            "text": "in",
+            "coordinates": [
+                374,
+                831,
+                9,
+                7
+            ],
+            "confidence": 94.0
+        },
+        {
+            "text": "the",
+            "coordinates": [
+                389,
+                827,
+                16,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "birth",
+            "coordinates": [
+                411,
+                827,
+                26,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "and",
+            "coordinates": [
+                443,
+                826,
+                20,
+                11
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "mortality",
+            "coordinates": [
+                469,
+                825,
+                51,
+                12
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "rates",
+            "coordinates": [
+                528,
+                827,
+                27,
+                8
+            ],
+            "confidence": 93.0
+        },
+        {
+            "text": "international",
+            "coordinates": [
+                205,
+                865,
+                82,
+                11
+            ],
+            "confidence": 70.0
+        },
+        {
+            "text": "Relations:",
+            "coordinates": [
+                299,
+                864,
+                62,
+                11
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "Events",
+            "coordinates": [
+                374,
+                863,
+                39,
+                10
+            ],
+            "confidence": 52.0
+        },
+        {
+            "text": "and",
+            "coordinates": [
+                425,
+                862,
+                20,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "developments",
+            "coordinates": [
+                457,
+                861,
+                83,
+                13
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "in",
+            "coordinates": [
+                552,
+                863,
+                10,
+                8
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "the",
+            "coordinates": [
+                573,
+                859,
+                17,
+                11
+            ],
+            "confidence": 92.0
+        },
+        {
+            "text": "imternational",
+            "coordinates": [
+                603,
+                857,
+                75,
+                12
+            ],
+            "confidence": 68.0
+        },
+        {
+            "text": "arena,",
+            "coordinates": [
+                690,
+                859,
+                35,
+                8
+            ],
+            "confidence": 84.0
+        },
+        {
+            "text": "invluding",
+            "coordinates": [
+                205,
+                883,
+                53,
+                12
+            ],
+            "confidence": 50.0
+        },
+        {
+            "text": "conflivts,",
+            "coordinates": [
+                269,
+                882,
+                50,
+                10
+            ],
+            "confidence": 15.0
+        },
+        {
+            "text": "treaties,",
+            "coordinates": [
+                333,
+                883,
+                44,
+                8
+            ],
+            "confidence": 91.0
+        },
+        {
+            "text": "and",
+            "coordinates": [
+                388,
+                880,
+                20,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "alliances,",
+            "coordinates": [
+                418,
+                880,
+                54,
+                10
+            ],
+            "confidence": 84.0
+        },
+        {
+            "text": "can",
+            "coordinates": [
+                483,
+                882,
+                20,
+                7
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "have",
+            "coordinates": [
+                513,
+                879,
+                27,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "repercussions",
+            "coordinates": [
+                550,
+                879,
+                81,
+                12
+            ],
+            "confidence": 83.0
+        },
+        {
+            "text": "@n",
+            "coordinates": [
+                642,
+                878,
+                14,
+                7
+            ],
+            "confidence": 44.0
+        },
+        {
+            "text": "@",
+            "coordinates": [
+                666,
+                878,
+                5,
+                7
+            ],
+            "confidence": 52.0
+        },
+        {
+            "text": "nation's",
+            "coordinates": [
+                681,
+                876,
+                45,
+                9
+            ],
+            "confidence": 63.0
+        },
+        {
+            "text": "polivies",
+            "coordinates": [
+                205,
+                901,
+                44,
+                12
+            ],
+            "confidence": 81.0
+        },
+        {
+            "text": "and",
+            "coordinates": [
+                254,
+                900,
+                20,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "priorities,",
+            "coordinates": [
+                280,
+                901,
+                52,
+                11
+            ],
+            "confidence": 85.0
+        },
+        {
+            "text": "leading",
+            "coordinates": [
+                343,
+                898,
+                42,
+                13
+            ],
+            "confidence": 65.0
+        },
+        {
+            "text": "to",
+            "coordinates": [
+                390,
+                900,
+                10,
+                8
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "social",
+            "coordinates": [
+                405,
+                897,
+                33,
+                10
+            ],
+            "confidence": 65.0
+        },
+        {
+            "text": "changes",
+            "coordinates": [
+                444,
+                897,
+                47,
+                13
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "within",
+            "coordinates": [
+                497,
+                896,
+                37,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "that",
+            "coordinates": [
+                539,
+                896,
+                21,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "country",
+            "coordinates": [
+                566,
+                896,
+                44,
+                10
+            ],
+            "confidence": 92.0
+        },
+        {
+            "text": "Pvents",
+            "coordinates": [
+                206,
+                936,
+                41,
+                10
+            ],
+            "confidence": 50.0
+        },
+        {
+            "text": "of",
+            "coordinates": [
+                256,
+                935,
+                12,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "Crisis:",
+            "coordinates": [
+                276,
+                934,
+                37,
+                10
+            ],
+            "confidence": 87.0
+        },
+        {
+            "text": "Crises",
+            "coordinates": [
+                326,
+                934,
+                36,
+                9
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "like",
+            "coordinates": [
+                373,
+                933,
+                20,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "wars,",
+            "coordinates": [
+                403,
+                935,
+                29,
+                8
+            ],
+            "confidence": 91.0
+        },
+        {
+            "text": "pandemics,",
+            "coordinates": [
+                443,
+                931,
+                66,
+                14
+            ],
+            "confidence": 87.0
+        },
+        {
+            "text": "or",
+            "coordinates": [
+                519,
+                934,
+                11,
+                7
+            ],
+            "confidence": 94.0
+        },
+        {
+            "text": "natural",
+            "coordinates": [
+                539,
+                930,
+                40,
+                11
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "disasters",
+            "coordinates": [
+                589,
+                929,
+                51,
+                11
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "may",
+            "coordinates": [
+                650,
+                931,
+                23,
+                7
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "compel",
+            "coordinates": [
+                684,
+                927,
+                43,
+                12
+            ],
+            "confidence": 69.0
+        },
+        {
+            "text": "socwty",
+            "coordinates": [
+                205,
+                955,
+                39,
+                10
+            ],
+            "confidence": 46.0
+        },
+        {
+            "text": "to",
+            "coordinates": [
+                252,
+                954,
+                10,
+                8
+            ],
+            "confidence": 80.0
+        },
+        {
+            "text": "adapt",
+            "coordinates": [
+                269,
+                952,
+                30,
+                12
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "and",
+            "coordinates": [
+                306,
+                951,
+                20,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "evolve",
+            "coordinates": [
+                332,
+                951,
+                38,
+                9
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "in",
+            "coordinates": [
+                378,
+                953,
+                9,
+                7
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "order",
+            "coordinates": [
+                394,
+                950,
+                30,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "to",
+            "coordinates": [
+                430,
+                952,
+                10,
+                8
+            ],
+            "confidence": 93.0
+        },
+        {
+            "text": "solve",
+            "coordinates": [
+                447,
+                949,
+                30,
+                10
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "present",
+            "coordinates": [
+                484,
+                950,
+                42,
+                12
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "issues",
+            "coordinates": [
+                533,
+                951,
+                35,
+                8
+            ],
+            "confidence": 78.0
+        },
+        {
+            "text": "These",
+            "coordinates": [
+                580,
+                947,
+                32,
+                11
+            ],
+            "confidence": 78.0
+        },
+        {
+            "text": "disasters",
+            "coordinates": [
+                619,
+                946,
+                51,
+                11
+            ],
+            "confidence": 93.0
+        },
+        {
+            "text": "typteally",
+            "coordinates": [
+                676,
+                944,
+                51,
+                14
+            ],
+            "confidence": 84.0
+        },
+        {
+            "text": "neveseitate",
+            "coordinates": [
+                206,
+                972,
+                63,
+                9
+            ],
+            "confidence": 26.0
+        },
+        {
+            "text": "changes",
+            "coordinates": [
+                277,
+                969,
+                47,
+                13
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "in",
+            "coordinates": [
+                334,
+                972,
+                9,
+                6
+            ],
+            "confidence": 89.0
+        },
+        {
+            "text": "public",
+            "coordinates": [
+                352,
+                968,
+                35,
+                13
+            ],
+            "confidence": 67.0
+        },
+        {
+            "text": "policy",
+            "coordinates": [
+                397,
+                968,
+                35,
+                13
+            ],
+            "confidence": 65.0
+        },
+        {
+            "text": "healtheare",
+            "coordinates": [
+                445,
+                967,
+                60,
+                10
+            ],
+            "confidence": 77.0
+        },
+        {
+            "text": "systems,",
+            "coordinates": [
+                514,
+                968,
+                49,
+                10
+            ],
+            "confidence": 83.0
+        },
+        {
+            "text": "and",
+            "coordinates": [
+                573,
+                965,
+                21,
+                11
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "emergency",
+            "coordinates": [
+                602,
+                966,
+                64,
+                11
+            ],
+            "confidence": 74.0
+        },
+        {
+            "text": "response",
+            "coordinates": [
+                677,
+                964,
+                52,
+                11
+            ],
+            "confidence": 75.0
+        },
+        {
+            "text": "pravedures",
+            "coordinates": [
+                206,
+                988,
+                64,
+                13
+            ],
+            "confidence": 88.0
+        },
+        {
+            "text": "Cultural",
+            "coordinates": [
+                206,
+                1022,
+                54,
+                11
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "Diffusion;",
+            "coordinates": [
+                268,
+                1021,
+                61,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "When",
+            "coordinates": [
+                338,
+                1021,
+                34,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "cultural",
+            "coordinates": [
+                380,
+                1019,
+                44,
+                11
+            ],
+            "confidence": 92.0
+        },
+        {
+            "text": "norms,",
+            "coordinates": [
+                432,
+                1022,
+                39,
+                8
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "belief’,",
+            "coordinates": [
+                480,
+                1018,
+                41,
+                10
+            ],
+            "confidence": 45.0
+        },
+        {
+            "text": "and",
+            "coordinates": [
+                530,
+                1018,
+                20,
+                11
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "values",
+            "coordinates": [
+                558,
+                1018,
+                37,
+                10
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "are",
+            "coordinates": [
+                603,
+                1020,
+                17,
+                8
+            ],
+            "confidence": 81.0
+        },
+        {
+            "text": "wanamitted",
+            "coordinates": [
+                628,
+                1016,
+                68,
+                11
+            ],
+            "confidence": 43.0
+        },
+        {
+            "text": "from",
+            "coordinates": [
+                702,
+                1013,
+                31,
+                18
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "one",
+            "coordinates": [
+                206,
+                1044,
+                20,
+                7
+            ],
+            "confidence": 75.0
+        },
+        {
+            "text": "community",
+            "coordinates": [
+                236,
+                1041,
+                66,
+                10
+            ],
+            "confidence": 64.0
+        },
+        {
+            "text": "te",
+            "coordinates": [
+                313,
+                1041,
+                10,
+                8
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "another,",
+            "coordinates": [
+                334,
+                1038,
+                47,
+                11
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "it",
+            "coordinates": [
+                392,
+                1039,
+                6,
+                8
+            ],
+            "confidence": 93.0
+        },
+        {
+            "text": "may",
+            "coordinates": [
+                409,
+                1040,
+                23,
+                9
+            ],
+            "confidence": 95.0
+        },
+        {
+            "text": "lead",
+            "coordinates": [
+                443,
+                1036,
+                23,
+                11
+            ],
+            "confidence": 93.0
+        },
+        {
+            "text": "to",
+            "coordinates": [
+                476,
+                1038,
+                10,
+                8
+            ],
+            "confidence": 69.0
+        },
+        {
+            "text": "the",
+            "coordinates": [
+                496,
+                1036,
+                17,
+                11
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "adoption",
+            "coordinates": [
+                523,
+                1035,
+                52,
+                14
+            ],
+            "confidence": 21.0
+        },
+        {
+            "text": "ef",
+            "coordinates": [
+                586,
+                1036,
+                11,
+                9
+            ],
+            "confidence": 66.0
+        },
+        {
+            "text": "new",
+            "coordinates": [
+                607,
+                1038,
+                23,
+                7
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "behaviour",
+            "coordinates": [
+                642,
+                1034,
+                60,
+                11
+            ],
+            "confidence": 94.0
+        },
+        {
+            "text": "and",
+            "coordinates": [
+                712,
+                1032,
+                21,
+                11
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "viewpoints.",
+            "coordinates": [
+                207,
+                1059,
+                64,
+                12
+            ],
+            "confidence": 90.0
+        },
+        {
+            "text": "This",
+            "coordinates": [
+                283,
+                1057,
+                22,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "might",
+            "coordinates": [
+                311,
+                1056,
+                33,
+                13
+            ],
+            "confidence": 93.0
+        },
+        {
+            "text": "oeeur",
+            "coordinates": [
+                350,
+                1058,
+                32,
+                7
+            ],
+            "confidence": 80.0
+        },
+        {
+            "text": "through",
+            "coordinates": [
+                388,
+                1055,
+                45,
+                13
+            ],
+            "confidence": 88.0
+        },
+        {
+            "text": "trade,",
+            "coordinates": [
+                439,
+                1054,
+                28,
+                10
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "migration,",
+            "coordinates": [
+                477,
+                1056,
+                61,
+                11
+            ],
+            "confidence": 93.0
+        },
+        {
+            "text": "or",
+            "coordinates": [
+                544,
+                1057,
+                9,
+                7
+            ],
+            "confidence": 70.0
+        },
+        {
+            "text": "cultural",
+            "coordinates": [
+                560,
+                1053,
+                46,
+                10
+            ],
+            "confidence": 69.0
+        },
+        {
+            "text": "exchange",
+            "coordinates": [
+                611,
+                1052,
+                57,
+                13
+            ],
+            "confidence": 96.0
+        },
+        {
+            "text": "OC",
+            "coordinates": [
+                358,
+                1149,
+                12,
+                6
+            ],
+            "confidence": 37.0
+        },
+        {
+            "text": "opynght",
+            "coordinates": [
+                377,
+                1148,
+                43,
+                11
+            ],
+            "confidence": 48.0
+        },
+        {
+            "text": "Virtual",
+            "coordinates": [
+                427,
+                1147,
+                34,
+                9
+            ],
+            "confidence": 53.0
+        },
+        {
+            "text": "Linwornty",
+            "coordinates": [
+                476,
+                1149,
+                42,
+                7
+            ],
+            "confidence": 0.0
+        },
+        {
+            "text": "of",
+            "coordinates": [
+                525,
+                1148,
+                9,
+                6
+            ],
+            "confidence": 79.0
+        },
+        {
+            "text": "Pakwtan",
+            "coordinates": [
+                541,
+                1146,
+                43,
+                8
+            ],
+            "confidence": 2.0
+        },
+        {
+            "text": "loa",
+            "coordinates": [
+                722,
+                1144,
+                14,
+                7
+            ],
+            "confidence": 61.0
+        }
+    ]
+}
