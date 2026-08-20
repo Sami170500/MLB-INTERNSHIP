@@ -1,5 +1,0 @@
-OCR COMPARISON
---------------------
-Raw Image Confidence: 40.42%
-Preprocessed Image Confidence: 79.85%
-Result: Preprocessed image performed better.
