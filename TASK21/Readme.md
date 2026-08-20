@@ -1,68 +1,63 @@
-# Document Text Extraction Tool
+Document Text Extraction Tool
 
 A computer vision and OCR pipeline for extracting text from document images, with preprocessing designed to handle real-world image quality issues such as tilt, blur, noise, and poor lighting.
 
-The project combines **OpenCV** with **Tesseract OCR** to transform a document image into searchable text while also providing the location and confidence of detected text.
+The project combines OpenCV with Tesseract OCR to extract text while also providing the location and confidence of detected text.
 
-## Overview
+Overview
 
-Document images captured using cameras or mobile phones are rarely perfect. A document may be slightly rotated, noisy, blurry, or affected by uneven lighting. These issues can reduce OCR performance.
+Document images captured using cameras or mobile phones may contain issues such as rotation, noise, blur, or poor lighting. These issues can affect OCR performance.
 
-This project addresses those problems by applying a preprocessing pipeline before OCR and then comparing the OCR output from the original image with the processed version.
+This project applies a preprocessing pipeline before OCR and also extracts text directly from the original image.
 
 The complete pipeline is:
 
-**Document Image → Preprocessing → OCR → Text Detection → Bounding Boxes → Confidence Scores → TXT/JSON Results**
+Document Image → Raw OCR + Preprocessing → Preprocessed OCR → Text Detection → Bounding Boxes → Confidence Scores → TXT/JSON Results
 
-## Image Processing
+Dataset
 
-The preprocessing stage focuses on improving the document before text extraction.
+Two types of document images were used for testing:
+
+Dataset images with ground-truth text were used to demonstrate and evaluate the difference between OCR on raw and preprocessed images.
+Three additional document images without ground truth were used for the mandatory before/after demonstration of the preprocessing and OCR pipeline.
+Image Processing
+
+The preprocessing stage improves the document image before text extraction.
 
 It includes:
 
-- Grayscale conversion
-- Bilateral filtering for noise reduction
-- Automatic deskewing
-- CLAHE-based contrast enhancement
-- Image sharpening
+Grayscale conversion
+Bilateral filtering for noise reduction
+Automatic deskewing
+CLAHE-based contrast enhancement
+Image sharpening
+OCR & Text Detection
 
-The deskewing stage is particularly useful for documents that are photographed at an angle, while denoising and contrast enhancement help with lower-quality images.
+Tesseract OCR is used to extract text from both the original and preprocessed images.
 
-## OCR & Text Detection
+The preprocessed image is also used for text detection and provides:
 
-After preprocessing, **Tesseract OCR** extracts the document text.
+Extracted text
+Bounding box coordinates
+Confidence scores
 
-The OCR system also provides information about individual detected text regions, including:
+Detected text regions are visualized on the processed document using bounding boxes and confidence percentages.
 
-- Extracted text
-- Bounding box coordinates
-- Confidence score
+Raw & Preprocessed OCR
 
-These detections are visualized on the processed document using bounding boxes and confidence percentages.
+For images with ground-truth text, OCR results from the raw and preprocessed images are compared against the correct text to demonstrate the effect of preprocessing.
 
-## Raw vs Preprocessed OCR
+For the three additional images without ground truth, numerical accuracy is not reported. Instead, the results are shown qualitatively:
 
-One of the main parts of the project is comparing OCR performed on:
+Raw Image → Preprocessed Image → OCR Output → Bounding Boxes + Confidence
 
-**Original Image**
+Results
 
-versus
+For each document, the system generates:
 
-**Preprocessed Image**
-
-The system records the OCR confidence for both versions and reports which version performed better.
-
-This comparison is important because preprocessing does not automatically improve every document. A clean image may already be suitable for OCR, while preprocessing can provide a larger benefit on tilted, blurry, noisy, or poorly-lit images.
-
-## Results
-
-For each document, the system generates a set of files containing the processed image, OCR text, detection information, and comparison results.
-
-```text
 output/
 ├── document_preprocessed.jpg
-├── document_raw_ocr.txt
-├── document_preprocessed_ocr.txt
 ├── document_ocr_result.jpg
-├── document_ocr_data.json
-└── document_comparison.txt
+├── document_raw_extracted.txt
+├── document_preprocessed_extracted.txt
+└── document_ocr_data.json
