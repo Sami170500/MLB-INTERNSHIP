@@ -1,0 +1,1 @@
+Three difficult number-plate images were tested, including blurry, angled, . The blurry plate was successfully recognized after preprocessing. The angled plate remained unreadable because of strong perspective distortion. The unreadable result could potentially be improved using perspective correction  before OCR
