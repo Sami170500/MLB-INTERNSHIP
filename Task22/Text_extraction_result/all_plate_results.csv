@@ -1,0 +1,11 @@
+plate_image,plate_text,confidence,status
+processed_car_1_plate_1.jpg,DSOBF PCZ,89.05,Readable
+processed_car_4_plate_1.jpg,rre UN9,77.44,Readable
+processed_car_6_plate_1.jpg,BRASIL FCR8A63 BR,99.52,Readable
+processed_car_7_plate_1.jpg,WU6-00E,78.91,Readable
+processed_car_8_plate_1.jpg,Unreadable,0.0,Unreadable
+processed_car_9_plate_1.jpg,CB5511AK,99.36,Readable
+processed_car_10_plate_1.jpg,KMR·966 ENVIGADO,95.01,Readable
+processed_car_11_plate_1.jpg,S132 48 AKS TR,95.16,Readable
+processed_car_11_plate_2.jpg,17 SU 838 TR,98.84,Readable
+processed_car_7_plate_1.jpg,WU6-00E,78.91,Readable
