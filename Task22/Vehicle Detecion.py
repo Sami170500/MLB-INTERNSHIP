@@ -2,32 +2,21 @@ from ultralytics import YOLO
 import cv2
 from pathlib import Path
 
-
-# Get image path from user
 image_path = input("Enter image path: ").strip()
-
 image_path = Path(image_path)
 
-
-# Check image path
 if not image_path.exists():
     print("Error: Image not found.")
     exit()
-
-
-# Load image
 image = cv2.imread(str(image_path))
 
 if image is None:
     print("Error: Could not load image.")
     exit()
 
-
-# Load pretrained YOLOv8 COCO model
 model = YOLO("yolov8n.pt")
 
 
-# COCO vehicle classes
 vehicle_classes = {
     2: "car",
     3: "motorcycle",
@@ -36,7 +25,6 @@ vehicle_classes = {
 }
 
 
-# Create a separate output folder for this image
 image_output_folder = Path("output") / image_path.stem
 
 detected_folder = image_output_folder / "detected"
@@ -45,7 +33,7 @@ vehicle_folder = image_output_folder / "vehicles"
 detected_folder.mkdir(parents=True, exist_ok=True)
 vehicle_folder.mkdir(parents=True, exist_ok=True)
 
-# Detect vehicles
+
 results = model(
     image,
     conf=0.80,
@@ -56,7 +44,7 @@ results = model(
 vehicle_count = 0
 
 
-# Process detected vehicles
+
 for result in results:
 
     for box in result.boxes:
@@ -68,7 +56,7 @@ for result in results:
 
         vehicle_name = vehicle_classes[class_id]
 
-        # Crop vehicle
+      
         vehicle_crop = image[y1:y2, x1:x2]
 
         if vehicle_crop.size == 0:
@@ -76,7 +64,6 @@ for result in results:
 
         vehicle_count += 1
 
-        # Save vehicle crop
         crop_path = (
             vehicle_folder /
             f"{vehicle_name}_{vehicle_count}.jpg"
@@ -87,7 +74,7 @@ for result in results:
             vehicle_crop
         )
 
-        # Draw bounding box on original image
+       
         label = f"{vehicle_name} {confidence:.2f}"
 
         cv2.rectangle(
@@ -114,8 +101,6 @@ for result in results:
             f"Confidence: {confidence:.2f}"
         )
 
-
-# Save image with vehicle detections
 detected_path = detected_folder / image_path.name
 
 cv2.imwrite(
