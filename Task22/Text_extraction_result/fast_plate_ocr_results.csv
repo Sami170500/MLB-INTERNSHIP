@@ -1,0 +1,9 @@
+plate_image,plate_text,confidence,status
+Preprocessed_Blury_img 1.jpg,DS08PCZ,99.99,Readable
+processed_car_6_plate_1.jpg,FCR8A63,100.00,Readable
+processed_car_7_plate_1.jpg,WJ600E,98.78,Readable
+processed_car_8_plate_1.jpg,35AS967,97.00,Readable
+processed_car_9_plate_1.jpg,CB5511AK,99.99,Readable
+processed_car_10_plate_1.jpg,KMR966,100.00,Readable
+processed_car_11_plate_1.jpg,48AKS132,99.99,Readable
+processed_car_11_plate_2.jpg,17SU838,99.98,Readable
