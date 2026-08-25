@@ -1,0 +1,4 @@
+image1,image2,hash_distance
+brightness.jpg,image2.jpg,2
+brightness.jpg,resized.jpg,2
+image2.jpg,resized.jpg,0

@@ -1,0 +1,17 @@
+[
+    {
+        "image1":"brightness.jpg",
+        "image2":"image2.jpg",
+        "hash_distance":2
+    },
+    {
+        "image1":"brightness.jpg",
+        "image2":"resized.jpg",
+        "hash_distance":2
+    },
+    {
+        "image1":"image2.jpg",
+        "image2":"resized.jpg",
+        "hash_distance":0
+    }
+]

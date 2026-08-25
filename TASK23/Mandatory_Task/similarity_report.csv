@@ -1,0 +1,4 @@
+query_image,rank,similar_image,cosine_similarity
+image2.jpg,1,resized.jpg,0.998
+image2.jpg,2,brightness.jpg,0.9908
+image2.jpg,3,cropped.jpg,0.8591

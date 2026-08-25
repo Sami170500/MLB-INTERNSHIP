@@ -1,0 +1,20 @@
+[
+    {
+        "query_image":"image2.jpg",
+        "rank":1,
+        "similar_image":"resized.jpg",
+        "cosine_similarity":0.998
+    },
+    {
+        "query_image":"image2.jpg",
+        "rank":2,
+        "similar_image":"brightness.jpg",
+        "cosine_similarity":0.9908
+    },
+    {
+        "query_image":"image2.jpg",
+        "rank":3,
+        "similar_image":"cropped.jpg",
+        "cosine_similarity":0.8591
+    }
+]
