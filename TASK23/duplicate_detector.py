@@ -110,9 +110,8 @@ if duplicates:
         os.path.join(results_folder, "duplicate_results.png"),
         dpi=200,
         bbox_inches="tight"
-    )
+  )
 
     plt.show()
-
 print("\nResults saved in:")
 print(results_folder)
