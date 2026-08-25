@@ -8,15 +8,12 @@ from tensorflow.keras.applications import MobileNetV2
 from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 from sklearn.metrics.pairwise import cosine_similarity
 
-
 model = MobileNetV2(
     weights="imagenet",
     include_top=False,
     pooling="avg"
 )
-
 folder = input("Enter image folder path: ").strip()
-
 images = []
 names = []
 
@@ -40,9 +37,7 @@ for file in os.listdir(folder):
     images.append(feature.flatten())
     names.append(file)
 
-
 print("Images processed:", len(images))
-
 
 query = input("Enter query image name: ").strip()
 query = os.path.basename(query)
@@ -73,7 +68,6 @@ for i in results:
     if len(top5) == 5:
         break
 
-
 print("\nQuery image:", query)
 print("\nTop 5 similar images:")
 
@@ -83,9 +77,6 @@ for rank, (name, score) in enumerate(top5, 1):
 
 results_folder = os.path.join(folder, "results")
 os.makedirs(results_folder, exist_ok=True)
-
-
-# Save CSV and JSON
 
 report = []
 
@@ -112,9 +103,6 @@ df.to_json(
     indent=4
 )
 
-
-# Create visual result
-
 plt.figure(figsize=(18, 5))
 
 query_path = os.path.join(folder, query)
@@ -127,7 +115,6 @@ plt.imshow(img)
 plt.title("Query\n" + query)
 plt.axis("off")
 
-
 for i, (name, score) in enumerate(top5, 2):
 
     path = os.path.join(folder, name)
@@ -139,7 +126,6 @@ for i, (name, score) in enumerate(top5, 2):
     plt.imshow(img)
     plt.title(f"{name}\n{score:.4f}")
     plt.axis("off")
-
 
 plt.tight_layout()
 
@@ -155,7 +141,5 @@ plt.savefig(
 )
 
 plt.show()
-
-
 print("\nTask A completed.")
 print("Results saved in:", results_folder)
