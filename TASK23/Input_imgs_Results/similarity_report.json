@@ -1,0 +1,32 @@
+[
+    {
+        "query_image":"image11.jpg",
+        "rank":1,
+        "similar_image":"image19.jpg",
+        "cosine_similarity":0.9839
+    },
+    {
+        "query_image":"image11.jpg",
+        "rank":2,
+        "similar_image":"image8.jpg",
+        "cosine_similarity":0.5443
+    },
+    {
+        "query_image":"image11.jpg",
+        "rank":3,
+        "similar_image":"image18.jpg",
+        "cosine_similarity":0.5149
+    },
+    {
+        "query_image":"image11.jpg",
+        "rank":4,
+        "similar_image":"image10.jpg",
+        "cosine_similarity":0.5039
+    },
+    {
+        "query_image":"image11.jpg",
+        "rank":5,
+        "similar_image":"image9.jpg",
+        "cosine_similarity":0.4958
+    }
+]

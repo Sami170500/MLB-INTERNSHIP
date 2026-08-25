@@ -1,0 +1,6 @@
+query_image,rank,similar_image,cosine_similarity
+image11.jpg,1,image19.jpg,0.9839
+image11.jpg,2,image8.jpg,0.5443
+image11.jpg,3,image18.jpg,0.5149
+image11.jpg,4,image10.jpg,0.5039
+image11.jpg,5,image9.jpg,0.4958

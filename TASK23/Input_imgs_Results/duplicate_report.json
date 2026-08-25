@@ -1,0 +1,27 @@
+[
+    {
+        "image1":"image1.jpg",
+        "image2":"image17.jpg",
+        "hash_distance":0
+    },
+    {
+        "image1":"image10.jpg",
+        "image2":"image18.jpg",
+        "hash_distance":0
+    },
+    {
+        "image1":"image11.jpg",
+        "image2":"image19.jpg",
+        "hash_distance":0
+    },
+    {
+        "image1":"image12.jpg",
+        "image2":"image20.jpg",
+        "hash_distance":0
+    },
+    {
+        "image1":"image13.jpg",
+        "image2":"image21.jpg",
+        "hash_distance":0
+    }
+]
