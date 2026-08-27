@@ -1,0 +1,1 @@
+The system performed **better on direct queries** that clearly described a visible object or scene, such as “a dog” or “a horse on the beach.” It performed **more weakly on abstract or indirect queries** such as “a peaceful scene” because these concepts are subjective and harder for CLIP to match accurately.
