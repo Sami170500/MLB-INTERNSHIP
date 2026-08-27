@@ -1,0 +1,177 @@
+[
+    {
+        "query": "a dog",
+        "results": [
+            {
+                "rank": 1,
+                "image": "img3.jpg",
+                "similarity_score": 0.2466,
+                "caption": "a dog playing in the grass with its tongue"
+            },
+            {
+                "rank": 2,
+                "image": "img14.jpg",
+                "similarity_score": 0.2398,
+                "caption": "a white dog"
+            },
+            {
+                "rank": 3,
+                "image": "img15.jpg",
+                "similarity_score": 0.2388,
+                "caption": "a dog in a yellow tunnel"
+            },
+            {
+                "rank": 4,
+                "image": "img4.jpg",
+                "similarity_score": 0.2383,
+                "caption": "a dog playing with a water hose in the yard"
+            },
+            {
+                "rank": 5,
+                "image": "img8.jpg",
+                "similarity_score": 0.2139,
+                "caption": "a horse and a dog on the beach"
+            }
+        ]
+    },
+    {
+        "query": "a peacefull scene",
+        "results": [
+            {
+                "rank": 1,
+                "image": "img8.jpg",
+                "similarity_score": 0.2269,
+                "caption": "a horse and a dog on the beach"
+            },
+            {
+                "rank": 2,
+                "image": "img2.jpg",
+                "similarity_score": 0.2217,
+                "caption": "a group of horses standing around a fire"
+            },
+            {
+                "rank": 3,
+                "image": "img7.jpg",
+                "similarity_score": 0.2208,
+                "caption": "a bird on a hand"
+            },
+            {
+                "rank": 4,
+                "image": "img6.jpg",
+                "similarity_score": 0.2024,
+                "caption": "a person riding a bike on a road"
+            },
+            {
+                "rank": 5,
+                "image": "img5.jpg",
+                "similarity_score": 0.2022,
+                "caption": "a man doing a trick on a bike"
+            }
+        ]
+    },
+    {
+        "query": "sports",
+        "results": [
+            {
+                "rank": 1,
+                "image": "img18.jpg",
+                "similarity_score": 0.2517,
+                "caption": "a soccer field"
+            },
+            {
+                "rank": 2,
+                "image": "img5.jpg",
+                "similarity_score": 0.248,
+                "caption": "a man doing a trick on a bike"
+            },
+            {
+                "rank": 3,
+                "image": "img9.jpg",
+                "similarity_score": 0.2419,
+                "caption": "a young boy swinging a baseball bat at a ball"
+            },
+            {
+                "rank": 4,
+                "image": "img15.jpg",
+                "similarity_score": 0.2406,
+                "caption": "a dog in a yellow tunnel"
+            },
+            {
+                "rank": 5,
+                "image": "img4.jpg",
+                "similarity_score": 0.2285,
+                "caption": "a dog playing with a water hose in the yard"
+            }
+        ]
+    },
+    {
+        "query": "playing in ground",
+        "results": [
+            {
+                "rank": 1,
+                "image": "img18.jpg",
+                "similarity_score": 0.2734,
+                "caption": "a soccer field"
+            },
+            {
+                "rank": 2,
+                "image": "img3.jpg",
+                "similarity_score": 0.2695,
+                "caption": "a dog playing in the grass with its tongue"
+            },
+            {
+                "rank": 3,
+                "image": "img14.jpg",
+                "similarity_score": 0.2531,
+                "caption": "a white dog"
+            },
+            {
+                "rank": 4,
+                "image": "img15.jpg",
+                "similarity_score": 0.2503,
+                "caption": "a dog in a yellow tunnel"
+            },
+            {
+                "rank": 5,
+                "image": "img4.jpg",
+                "similarity_score": 0.2443,
+                "caption": "a dog playing with a water hose in the yard"
+            }
+        ]
+    },
+    {
+        "query": "people",
+        "results": [
+            {
+                "rank": 1,
+                "image": "img14.jpg",
+                "similarity_score": 0.2245,
+                "caption": "a white dog"
+            },
+            {
+                "rank": 2,
+                "image": "img1.jpg",
+                "similarity_score": 0.2159,
+                "caption": "a woman in a bikini on a surfboard"
+            },
+            {
+                "rank": 3,
+                "image": "img11.jpg",
+                "similarity_score": 0.2153,
+                "caption": "three people standing in the rain"
+            },
+            {
+                "rank": 4,
+                "image": "img5.jpg",
+                "similarity_score": 0.2152,
+                "caption": "a man doing a trick on a bike"
+            },
+            {
+                "rank": 5,
+                "image": "img10.jpg",
+                "similarity_score": 0.2142,
+                "caption": "a man climbing a rock"
+            }
+        ]
+    }
+]

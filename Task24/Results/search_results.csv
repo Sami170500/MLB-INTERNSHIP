@@ -1,0 +1,26 @@
+query,rank,image,similarity_score,caption
+a dog,1,img3.jpg,0.2466,a dog playing in the grass with its tongue
+a dog,2,img14.jpg,0.2398,a white dog
+a dog,3,img15.jpg,0.2388,a dog in a yellow tunnel
+a dog,4,img4.jpg,0.2383,a dog playing with a water hose in the yard
+a dog,5,img8.jpg,0.2139,a horse and a dog on the beach
+a peacefull scene,1,img8.jpg,0.2269,a horse and a dog on the beach
+a peacefull scene,2,img2.jpg,0.2217,a group of horses standing around a fire
+a peacefull scene,3,img7.jpg,0.2208,a bird on a hand
+a peacefull scene,4,img6.jpg,0.2024,a person riding a bike on a road
+a peacefull scene,5,img5.jpg,0.2022,a man doing a trick on a bike
+sports,1,img18.jpg,0.2517,a soccer field
+sports,2,img5.jpg,0.248,a man doing a trick on a bike
+sports,3,img9.jpg,0.2419,a young boy swinging a baseball bat at a ball
+sports,4,img15.jpg,0.2406,a dog in a yellow tunnel
+sports,5,img4.jpg,0.2285,a dog playing with a water hose in the yard
+playing in ground,1,img18.jpg,0.2734,a soccer field
+playing in ground,2,img3.jpg,0.2695,a dog playing in the grass with its tongue
+playing in ground,3,img14.jpg,0.2531,a white dog
+playing in ground,4,img15.jpg,0.2503,a dog in a yellow tunnel
+playing in ground,5,img4.jpg,0.2443,a dog playing with a water hose in the yard
+people,1,img14.jpg,0.2245,a white dog
+people,2,img1.jpg,0.2159,a woman in a bikini on a surfboard
+people,3,img11.jpg,0.2153,three people standing in the rain
+people,4,img5.jpg,0.2152,a man doing a trick on a bike
+people,5,img10.jpg,0.2142,a man climbing a rock
