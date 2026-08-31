@@ -1,0 +1,3 @@
+image,bicubic_psnr,realesrgan_psnr,bicubic_ssim,realesrgan_ssim
+1.png,9.396898,9.209374,0.449872,0.447684
+2.jpg,7.744817,7.605819,0.207829,0.210614

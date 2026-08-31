@@ -1,0 +1,16 @@
+[
+    {
+        "image":"1.png",
+        "bicubic_psnr":9.396898,
+        "realesrgan_psnr":9.209374,
+        "bicubic_ssim":0.449872,
+        "realesrgan_ssim":0.447684
+    },
+    {
+        "image":"2.jpg",
+        "bicubic_psnr":7.744817,
+        "realesrgan_psnr":7.605819,
+        "bicubic_ssim":0.207829,
+        "realesrgan_ssim":0.210614
+    }
+]
